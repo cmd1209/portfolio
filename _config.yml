@@ -15,4 +15,5 @@ markdown: kramdown
 
 
 sass:
-  style: :nested
+  sass_dir: css
+  style: :compressed
