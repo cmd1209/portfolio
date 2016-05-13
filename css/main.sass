@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700)
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:700,400)
+
+$primary-color: rgb(70,105,150)
+$close-to-black: rgb(48,50,52)
+$secondary-color: #5A001E
+$contrast-color: #00663A
+$cool-grey: rgb(200,202,204)
+$offwhite: rgb(245,247,249)
+
+$dark-gradient: linear-gradient(180deg, $close-to-black,black 100%)
+$awesome-gradient: linear-gradient(180deg, $primary-color 0%,$secondary-color 100%)
+$darker-gradient: linear-gradient(180deg, $primary-color 0% ,darken($primary-color, 25) 66%)
+
+$normal-text-color: darken($primary-color,15)
+$contrast-text-color: lighten($cool-grey,10)
+
+$standard-line-height: 1.65em
+
+h1, h2, h3, h4, h5, h6
+  font-family: 'Quattrocento', serif
+  font-weight: 400
+
+.navbar
+  margin-top: 1em
+  border: none
+  padding-right: 1.5em
+  margin-bottom: 4em
+  li.active
+    a
+      color: $cool-grey
+  a
+    color: white
+    font-size: 120%
+    &:hover
+      color: $cool-grey
+      background-color: rgba(120,120,120,0)!important
+
+em
+  background-color: $cool-grey
+  font-style: normal
+  padding: 2px 3px
+
+.btn
+  border: none
+  background-color: $primary-color
+  box-shadow: 0px 5px 10px -3px black
+  color: $contrast-text-color
+  &:hover
+    background-color: lighten($primary-color, 5)
+    box-shadow: 0px 0px 8px -2px black
+
+body
+  background: $dark-gradient
+  color: $normal-text-color
+  font-family: 'Quattrocento Sans', sans-serif
+
+p
+.img-responsive
+  margin-bottom: $standard-line-height
+.main-container
+  padding: 1em 0
+.container-fluid
+  max-width: 1211px
+  background-color: $offwhite
+.well
+  border: none
+  background: $awesome-gradient
+  color: $contrast-text-color
+.jumbotron
+  padding-top: 0
+  padding-bottom: 6em
+  margin-bottom: 0
+  background: $awesome-gradient
+  color: $contrast-text-color
+blockquote
+  font-family: 'Quattrocento', serif
+  font-size: 175%
+  color: $secondary-color
+  border: none
+.footer
+  padding-top: 3em
+  padding-bottom: 3em
+  background: $darker-gradient
+  color: $cool-grey
+.copyright
+  margin-top: 2em
+  font-size: 85%
