@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Amazing World of Chad"
-date:   2016-05-13 14:37:17
+date:   2016-05-12 14:37:17
 categories: jekyll update
 image:
   feature: http://andreas-heller.de/wp-content/uploads/2013/08/WH592-4.jpg
