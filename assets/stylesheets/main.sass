@@ -2,8 +2,11 @@
 
 ---
 
+
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700)
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:700,400)
+
+@import "bootstrap"
 
 $primary-color: rgb(70,105,150)
 $close-to-black: rgb(48,50,52)
@@ -59,11 +62,20 @@ body
   color: $normal-text-color
   font-family: 'Quattrocento Sans', sans-serif
 
+.main-nav
+  min-height: 100vh
+  padding: 0 1em
+  overflow: hidden
+  color: white
+  @media (max-width: $screen-md-min)
+    min-height: 250px
 p
 .img-responsive
   margin-bottom: $standard-line-height
 .main-container
-  padding: 1em 0
+  min-height: 100vh
+  background-color: $offwhite
+  padding: 0 1em
 .container-fluid
   max-width: 1211px
   background-color: $offwhite
