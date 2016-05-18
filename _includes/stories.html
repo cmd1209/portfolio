@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-md-6 well">
         {% for post in site.categories.sports %}
-        <h2 class="highlight"><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2 class="highlight"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="lead">{{ post.excerpt }} </p>
         <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
         {% endfor %}
