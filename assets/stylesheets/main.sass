@@ -9,7 +9,7 @@
 @import "bootstrap"
 
 $primary-color: rgb(70,105,150)
-$close-to-black: rgb(48,50,52)
+$close-to-black: rgb(52,54,56)
 $secondary-color: #5A001E
 $contrast-color: #00663A
 $cool-grey: rgb(200,202,204)
@@ -61,7 +61,8 @@ body
   background: $dark-gradient
   color: $normal-text-color
   font-family: 'Quattrocento Sans', sans-serif
-
+.site-name
+  margin-left: 0.5em
 .main-nav
   min-height: 100vh
   padding: 0 1em
@@ -69,15 +70,12 @@ body
   color: white
   @media (max-width: $screen-md-min)
     min-height: 150px
-    text-align: center
-// .nav-stacked
-//   @media (max-width: $screen-md-min)
-//     position: absolute
-//     left: 50%
-//     transform: translateX(-50%)
-//   li
-//     @media (max-width: $screen-md-min)
-//       float: left
+.nav-stacked
+  @media (max-width: $screen-md-min)
+    width: 100%
+  li
+    @media (max-width: $screen-md-min)
+      float: left
 p
 .img-responsive
   margin-bottom: $standard-line-height

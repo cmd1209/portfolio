@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Amazing World of Chad"
+title:  "Classic Things You Could Do"
 date:   2016-05-12 14:37:17
-categories: sports
+categories: fun
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/IMG_264523_Snapseed-2800px.jpg
 ---
