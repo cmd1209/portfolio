@@ -1,40 +1,42 @@
-<div class="row">
-  <div class="col-md-4">
-    {% for post in site.categories.fun %}
-    <div class="post">
-      <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-      <p class="lead">{{ post.excerpt }} </p>
-      <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
-    </div>
-    <hr>
-    {% endfor %}
-  </div>
-  <div class="col-md-8">
-    <div class="row">
-      <div class="col-md-6 well">
-        {% for post in site.categories.sports %}
-        <h2 class="highlight"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="lead">{{ post.excerpt }} </p>
-        <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
-        {% endfor %}
-      </div>
-      <div class="col-md-6">
-        {% for post in site.categories.classic %}
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="bg-primary">{{ post.categories }}</p>
-        <p class="lead">{{ post.excerpt }} </p>
-        <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
-        {% endfor %}
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        {% for post in site.categories.phones %}
+<section id="stories" class="stories">
+  <div class="row">
+    <div class="col-md-4">
+      {% for post in site.categories.fun %}
+      <div class="post">
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-        {{ post.excerpt }}
+        <p class="lead">{{ post.excerpt }} </p>
         <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
-        {% endfor %}
+      </div>
+      <hr>
+      {% endfor %}
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-6 well">
+          {% for post in site.categories.sports %}
+          <h2 class="highlight"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <p class="lead">{{ post.excerpt }} </p>
+          <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endfor %}
+        </div>
+        <div class="col-md-6">
+          {% for post in site.categories.classic %}
+          <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <p class="bg-primary">{{ post.categories }}</p>
+          <p class="lead">{{ post.excerpt }} </p>
+          <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endfor %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          {% for post in site.categories.phones %}
+          <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+          {{ post.excerpt }}
+          <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>

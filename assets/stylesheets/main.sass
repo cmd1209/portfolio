@@ -1,11 +1,8 @@
 ---
 
 ---
-
-
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700)
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:700,400)
-
 @import "bootstrap"
 
 $primary-color: rgb(70,105,150)
@@ -17,6 +14,7 @@ $offwhite: rgb(245,247,249)
 
 $dark-gradient: linear-gradient(180deg, $close-to-black,black 100%)
 $awesome-gradient: linear-gradient(180deg, $primary-color 0%,$secondary-color 100%)
+$light-awesome-gradient: linear-gradient(180deg, $offwhite 0%,$cool-grey 100%)
 $darker-gradient: linear-gradient(180deg, $primary-color 0% ,darken($primary-color, 25) 66%)
 
 $normal-text-color: darken($primary-color,15)
@@ -28,7 +26,29 @@ h1, h2, h3, h4, h5, h6
   font-family: 'Quattrocento', serif
   font-weight: 400
 
-.navbar
+
+.home-wrapper
+  display: flex
+  min-height: 100vh
+  @media (max-width: $screen-md-min)
+    display: block
+header.site-header
+  position: relative
+  width: 225px
+  padding: 1em 0
+  background-color: $cool-grey
+  @media (max-width: $screen-md-min)
+    width: 100%
+
+.home-sections
+  flex: 1
+  background-color: $offwhite
+  overflow: hidden
+
+.stories
+  padding: 2em
+
+.side-nav
   margin-top: 1em
   border: none
   padding-right: 1.5em
@@ -40,8 +60,19 @@ h1, h2, h3, h4, h5, h6
     color: white
     font-size: 120%
     &:hover
-      color: $cool-grey
-      background-color: rgba(120,120,120,0)!important
+      color: $primary-color
+
+.header-position
+  position: fixed
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  top: 0
+  left: 0
+  bottom: 0
+  width: 225px
+  @media (max-width: $screen-md-min)
+    position: relative
 
 em
   background-color: $cool-grey
@@ -58,19 +89,19 @@ em
     box-shadow: 0px 0px 8px -2px black
 
 body
-  background: $dark-gradient
   color: $normal-text-color
   font-family: 'Quattrocento Sans', sans-serif
 .site-name
   margin-left: 0.5em
+  flex: 1
 .main-nav
-  min-height: 100vh
   padding: 0 1em
   overflow: hidden
   color: white
   @media (max-width: $screen-md-min)
     min-height: 150px
 .nav-stacked
+  flex: 1
   @media (max-width: $screen-md-min)
     width: 100%
   li
@@ -80,7 +111,6 @@ p
 .img-responsive
   margin-bottom: $standard-line-height
 .main-container
-  min-height: 100vh
   background-color: $offwhite
   padding: 0 1em
 .container-fluid
@@ -91,11 +121,15 @@ p
   background: $awesome-gradient
   color: $contrast-text-color
 .jumbotron
-  padding-top: 0
-  padding-bottom: 6em
-  margin-bottom: 0
+  padding: 4em
+  margin: 0
   background: $awesome-gradient
   color: $contrast-text-color
+.about
+  padding: 2em
+  background: $light-awesome-gradient
+  min-height: 30vh
+
 blockquote
   font-family: 'Quattrocento', serif
   font-size: 175%
