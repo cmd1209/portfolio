@@ -1,145 +1,21 @@
 ---
 
 ---
+
+// google and bootstrap import
+
 @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700)
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:700,400)
 @import "bootstrap"
 
-$primary-color: rgb(70,105,150)
-$close-to-black: rgb(52,54,56)
-$secondary-color: #5A001E
-$contrast-color: #00663A
-$cool-grey: rgb(200,202,204)
-$offwhite: rgb(245,247,249)
 
-$dark-gradient: linear-gradient(180deg, $close-to-black,black 100%)
-$awesome-gradient: linear-gradient(180deg, $primary-color 0%,$secondary-color 100%)
-$light-awesome-gradient: linear-gradient(180deg, $offwhite 0%,$cool-grey 100%)
-$darker-gradient: linear-gradient(180deg, $primary-color 0% ,darken($primary-color, 25) 66%)
+@import "sass_parts/colors"
+@import "sass_parts/typo"
+@import "sass_parts/buttons"
+@import "sass_parts/images"
 
-$normal-text-color: darken($primary-color,15)
-$contrast-text-color: lighten($cool-grey,10)
+@import "sass_parts/framework"
 
-$standard-line-height: 1.65em
-
-h1, h2, h3, h4, h5, h6
-  font-family: 'Quattrocento', serif
-  font-weight: 400
-
-
-.home-wrapper
-  display: flex
-  min-height: 100vh
-  @media (max-width: $screen-md-min)
-    display: block
-header.site-header
-  position: relative
-  width: 225px
-  padding: 1em 0
-  background-color: $cool-grey
-  @media (max-width: $screen-md-min)
-    width: 100%
-
-.home-sections
-  flex: 1
-  background-color: $offwhite
-  overflow: hidden
-
-.stories
-  padding: 2em
-
-.side-nav
-  margin-top: 1em
-  border: none
-  padding-right: 1.5em
-  margin-bottom: 4em
-  li.active
-    a
-      color: $cool-grey
-  a
-    color: white
-    font-size: 120%
-    &:hover
-      color: $primary-color
-
-.header-position
-  position: fixed
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  top: 0
-  left: 0
-  bottom: 0
-  width: 225px
-  @media (max-width: $screen-md-min)
-    position: relative
-
-em
-  background-color: $cool-grey
-  font-style: normal
-  padding: 2px 3px
-
-.btn
-  border: none
-  background-color: $primary-color
-  box-shadow: 0px 5px 10px -3px black
-  color: $contrast-text-color
-  &:hover
-    background-color: lighten($primary-color, 5)
-    box-shadow: 0px 0px 8px -2px black
-
-body
-  color: $normal-text-color
-  font-family: 'Quattrocento Sans', sans-serif
-.site-name
-  margin-left: 0.5em
-  flex: 1
-.main-nav
-  padding: 0 1em
-  overflow: hidden
-  color: white
-  @media (max-width: $screen-md-min)
-    min-height: 150px
-.nav-stacked
-  flex: 1
-  @media (max-width: $screen-md-min)
-    width: 100%
-  li
-    @media (max-width: $screen-md-min)
-      float: left
-p
-.img-responsive
-  margin-bottom: $standard-line-height
-.main-container
-  background-color: $offwhite
-  padding: 0 1em
-.container-fluid
-  max-width: 1211px
-  background-color: $offwhite
-.well
-  border: none
-  background: $awesome-gradient
-  color: $contrast-text-color
-.jumbotron
-  padding: 4em
-  margin: 0
-  background: $awesome-gradient
-  color: $contrast-text-color
-.about
-  padding: 2em
-  background: $light-awesome-gradient
-  min-height: 30vh
-
-blockquote
-  font-family: 'Quattrocento', serif
-  font-size: 175%
-  color: $secondary-color
-  border: none
-.footer
-  padding-top: 3em
-  padding-bottom: 3em
-  background: $darker-gradient
-  color: $cool-grey
-.copyright
-  margin-top: 2em
-  font-size: 85%
+@import "sass_parts/header"
+@import "sass_parts/sections"
+@import "sass_parts/footer"

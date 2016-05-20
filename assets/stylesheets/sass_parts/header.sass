@@ -1,0 +1,53 @@
+header.site-header
+  position: relative
+  width: 225px
+  padding: 1em 0
+  background-color: $cool-grey
+  @media (max-width: $screen-md-min)
+    width: 100%
+
+.header-position
+  position: fixed
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  top: 0
+  left: 0
+  bottom: 0
+  width: 225px
+  @media (max-width: $screen-md-min)
+    position: relative
+
+.site-name
+  margin-left: 0.5em
+  flex: 1
+
+
+.side-nav
+  margin-top: 1em
+  border: none
+  padding-right: 1.5em
+  margin-bottom: 4em
+  li.active
+    a
+      color: $cool-grey
+  a
+    color: white
+    font-size: 120%
+    &:hover
+      color: $primary-color
+
+
+.main-nav
+  padding: 0 1em
+  overflow: hidden
+  color: white
+  @media (max-width: $screen-md-min)
+    min-height: 150px
+.nav-stacked
+  flex: 1
+  @media (max-width: $screen-md-min)
+    width: 100%
+  li
+    @media (max-width: $screen-md-min)
+      float: left

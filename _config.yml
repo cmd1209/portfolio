@@ -16,6 +16,9 @@ markdown: kramdown
 
 cdn_path: https://dl.dropboxusercontent.com/u/947851/
 
+gems:
+  - octopress-autoprefixer
+
 sass:
   sass_dir: assets/stylesheets
   style: :compressed
