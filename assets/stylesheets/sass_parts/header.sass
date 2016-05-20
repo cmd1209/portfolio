@@ -1,8 +1,10 @@
+$header-width: 200px
+
 header.site-header
   position: relative
-  width: 225px
+  width: $header-width
   padding: 1em 0
-  background-color: $cool-grey
+  background: $light-awesome-gradient
   @media (max-width: $screen-md-min)
     width: 100%
 
@@ -14,40 +16,41 @@ header.site-header
   top: 0
   left: 0
   bottom: 0
-  width: 225px
+  width: $header-width
   @media (max-width: $screen-md-min)
+    width: 100%
     position: relative
 
 .site-name
-  margin-left: 0.5em
-  flex: 1
-
+  font-family: 'Audiowide', cursive
+  margin: 0.5em
+  text-align: center
+  font-size: 55px
+  letter-spacing: -2px
+  text-shadow: 0px 5px 5px rgba($primary-color,0.25)
+  i
+    text-shadow: 0px 9px 8px rgba($primary-color,0.25)
 
 .side-nav
-  margin-top: 1em
-  border: none
-  padding-right: 1.5em
-  margin-bottom: 4em
+  margin: 1em 0
   li.active
     a
       color: $cool-grey
   a
-    color: white
+    color: $primary-color
     font-size: 120%
     &:hover
-      color: $primary-color
+      color: white
+
+.header-links
+  color: $gray_dark
+  margin: 0.5em
+  text-align: center
 
 
-.main-nav
-  padding: 0 1em
-  overflow: hidden
-  color: white
-  @media (max-width: $screen-md-min)
-    min-height: 150px
 .nav-stacked
-  flex: 1
   @media (max-width: $screen-md-min)
-    width: 100%
+    margin: 0 auto
   li
     @media (max-width: $screen-md-min)
-      float: left
+      display: inline-block
