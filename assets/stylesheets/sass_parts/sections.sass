@@ -2,26 +2,44 @@
   flex: 1
   overflow: hidden
 
-
-
 .stories
   padding: 2em
 
-
 h1.jumbo-header::first-letter
-  color: $primary-color
+  color: $offwhite
   font-family: 'Audiowide', cursive
+
 
 .jumbotron
   position: relative
-  padding: 4em
+  padding: 6em 4em
   margin: 0
+  height: 100vh
   color: $contrast-text-color
-  background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg")
-  background-position: center center
+  background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
+  background-position: center bottom
   background-size: cover
   @media (max-width: $screen-md-min)
     padding: 1em
+
+.statement
+  margin-bottom: 6em
+
+.circle
+  width: 180px
+  height: 180px
+  background-color: $offwhite
+  border-radius: 100%
+  margin: 1em auto
+  transition: all 1s
+  &:hover
+    width: 200px
+    height: 200px
+    transition: all 1s
+
+// .areas
+//   font-family: 'Audiowide', cursive
+//   font-weight: 100
 
 .cover-overlay
   position: absolute
@@ -30,12 +48,12 @@ h1.jumbo-header::first-letter
   right: 0
   bottom: 0
   background: $awesome-gradient
-  opacity: 0.85
+  opacity: 0.90
 
 .about
   padding: 2em
-  background: $cool-grey
-  color: $close-to-black
+  background: $dark-primary-color
+  color: $offwhite
   min-height: 30vh
 
 .projects

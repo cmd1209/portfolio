@@ -1,4 +1,4 @@
-$header-width: 200px
+$header-width: 180px
 
 header.site-header
   position: relative
@@ -22,8 +22,9 @@ header.site-header
     position: relative
 
 .site-name
+  color: $primary-color
   font-family: 'Audiowide', cursive
-  margin: 0.5em
+  margin: 5px 0 5px -8px
   text-align: center
   font-size: 55px
   letter-spacing: -2px
@@ -46,6 +47,8 @@ header.site-header
   color: $gray_dark
   margin: 0.5em
   text-align: center
+  @media (max-width: $screen-md-min)
+    display: none
 
 
 .nav-stacked
