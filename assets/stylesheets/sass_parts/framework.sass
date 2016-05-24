@@ -1,11 +1,18 @@
 body
   color: $normal-text-color
   font-family: 'Quattrocento Sans', sans-serif
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  overflow: auto
 
 .home-wrapper
-  height: 100vh
+  height: 100%
   background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
-  background-position: center bottom
+  background-position: bottom
   background-size: cover
+
   @media (max-width: $screen-md-min)
     display: block
