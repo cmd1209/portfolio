@@ -5,7 +5,9 @@
       <div class="post">
         <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
         <p class="lead">{{ post.excerpt }} </p>
+        {% if post.image.feature %}
         <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+        {% endif %}
       </div>
       <hr>
       {% endfor %}
@@ -16,15 +18,18 @@
           {% for post in site.categories.sports %}
           <h2 class="highlight"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
           <p class="lead">{{ post.excerpt }} </p>
+          {% if post.image.feature %}
           <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endif %}
           {% endfor %}
         </div>
         <div class="col-md-6">
           {% for post in site.categories.classic %}
           <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-          <p class="bg-primary">{{ post.categories }}</p>
           <p class="lead">{{ post.excerpt }} </p>
-          <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% if post.image.feature %}
+            <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -33,7 +38,9 @@
           {% for post in site.categories.phones %}
           <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
           {{ post.excerpt }}
+          {% if post.image.feature %}
           <img src="{{post.image.feature}}" class="img-responsive" alt="Responsive image">
+          {% endif %}
           {% endfor %}
         </div>
       </div>

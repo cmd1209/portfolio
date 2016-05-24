@@ -14,7 +14,7 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-cdn_path: https://dl.dropboxusercontent.com/u/947851/
+cdn_path: https://dl.dropboxusercontent.com/u/947851/portfolio/
 
 gems:
   - octopress-autoprefixer

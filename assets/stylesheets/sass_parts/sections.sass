@@ -13,12 +13,24 @@ h1.jumbo-header::first-letter
   font-family: 'Audiowide', cursive
 
 .jumbotron
+  position: relative
   padding: 4em
   margin: 0
-  background: $awesome-gradient
   color: $contrast-text-color
+  background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg")
+  background-position: center center
+  background-size: cover
   @media (max-width: $screen-md-min)
-  padding: 1em
+    padding: 1em
+
+.cover-overlay
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background: $awesome-gradient
+  opacity: 0.85
 
 .about
   padding: 2em
