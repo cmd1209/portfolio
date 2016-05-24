@@ -2,12 +2,10 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="cover-overlay"></div>
-    <div class="home-wrapper">
-      <div class="container">
-        {% include header.html %}
-        {% include jumbotron.html %}
-      </div>
+    {% include header.html %}
+    <div class="container home">
+      {% include jumbotron.html %}
     </div>
+    {% include footer.html %}
   </body>
 </html>
