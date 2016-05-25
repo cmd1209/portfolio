@@ -19,7 +19,7 @@ h1.jumbo-header::first-letter
     padding: 1em
 
 .statement
-  margin-bottom: 6em
+  margin-bottom: 4em
 
 .circle
   display: block
@@ -29,27 +29,28 @@ h1.jumbo-header::first-letter
   border-radius: 100%
   margin: 1em auto
   transition: all 1.25s
-  box-shadow: 0 10px 20px -5px black
+  // box-shadow: 0 10px 20px -5px black
   background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
-  background-position: center bottom
+  background-position: center
+  background-attachment: fixed
   background-size: cover
   &:hover
     width: 260px
     height: 260px
-    box-shadow: 0 5px 10px -5px $offwhite
+    // box-shadow: 0 5px 10px -5px $offwhite
     transition: all 0.5s
     position: relative
-  &::before
-    content: " "
-    position: absolute
-    background: rgba($offwhite,0.1)
-    height: 400px
-    width: 400px
-    border-radius: 100%
-    top: 50%
-    left: 50%
-    transform: translateX(-50%)translateY(-50%)
-    border: 1px solid rgba($offwhite,0.1)
+  // &::before
+  //   content: " "
+  //   position: absolute
+  //   background: rgba($offwhite,0.1)
+  //   height: 400px
+  //   width: 400px
+  //   border-radius: 100%
+  //   top: 50%
+  //   left: 50%
+  //   transform: translateX(-50%)translateY(-50%)
+  //   border: 1px solid rgba($offwhite,0.1)
 
 .cover-overlay
   position: absolute
