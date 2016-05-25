@@ -6,9 +6,8 @@
   padding: 2em
 
 h1.jumbo-header::first-letter
-  color: $offwhite
+  color: $secondary-color
   font-family: 'Audiowide', cursive
-
 
 .jumbotron
   background: none
@@ -39,18 +38,18 @@ h1.jumbo-header::first-letter
     height: 260px
     box-shadow: 0 5px 10px -5px $offwhite
     transition: all 0.5s
+    position: relative
   &::before
     content: " "
     position: absolute
-    background-color: rgba(white, 0.1)
+    background: rgba($offwhite,0.1)
     height: 400px
     width: 400px
     border-radius: 100%
     top: 50%
     left: 50%
     transform: translateX(-50%)translateY(-50%)
-    filter: blur(15px)
-    border: 2px solid white
+    border: 1px solid rgba($offwhite,0.1)
 
 .cover-overlay
   position: absolute
