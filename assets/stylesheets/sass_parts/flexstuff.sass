@@ -10,7 +10,9 @@
   display: flex
   flex: 1
   transition: all 1.40s
-  &:hover
+  @media (max-width: $screen-md-min)
+    flex-direction: column
+  &:active
     @include flex-growth
     transition: all 1.40s
 
@@ -32,7 +34,7 @@
     opacity: 0.25
     z-index: -1
     transition: all 1.40s
-  &:hover
+  &:active
     @include flex-growth
     transition: all 1.40s
     &::after
