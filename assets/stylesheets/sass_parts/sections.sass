@@ -6,13 +6,12 @@
   padding: 2em
 
 h1.jumbo-header::first-letter
-  color: $secondary-color
   font-family: 'Audiowide', cursive
 
 .jumbotron
   background: none
   position: relative
-  padding: 3em 4em 6em 4em
+  padding: 1em
   margin: 0
   color: $contrast-text-color
   @media (max-width: $screen-md-min)
@@ -20,48 +19,6 @@ h1.jumbo-header::first-letter
 
 .statement
   margin-bottom: 4em
-
-.circle
-  display: block
-  width: 220px
-  height: 220px
-  background-color: $offwhite
-  border-radius: 100%
-  margin: 1em auto
-  transition: all 1.25s
-  // box-shadow: 0 10px 20px -5px black
-  background-image: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
-  background-position: center
-  background-attachment: fixed
-  background-size: cover
-  &:hover
-    width: 260px
-    height: 260px
-    // box-shadow: 0 5px 10px -5px $offwhite
-    transition: all 0.5s
-    position: relative
-  // &::before
-  //   content: " "
-  //   position: absolute
-  //   background: rgba($offwhite,0.1)
-  //   height: 400px
-  //   width: 400px
-  //   border-radius: 100%
-  //   top: 50%
-  //   left: 50%
-  //   transform: translateX(-50%)translateY(-50%)
-  //   border: 1px solid rgba($offwhite,0.1)
-
-.cover-overlay
-  position: absolute
-  height: 100%
-  width: 100%
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
-  background: $awesome-gradient
-  opacity: 0.20
 
 .about
   padding: 2em
@@ -73,3 +30,36 @@ h1.jumbo-header::first-letter
   padding: 2em
   background-color: $offwhite
   color: $close-to-black
+
+.flex-container
+  display: flex
+  @media (max-width: $screen-md-min)
+    flex-direction: column
+
+
+.flex-box
+  flex: 1
+  position: relative
+  min-height: 70vh
+  transition: all 2s
+  @media (max-width: $screen-md-min)
+    min-height: 27vh
+  &::after
+    content: ""
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    opacity: 0.65
+    z-index: -1
+    transition: all 2s
+  &:hover
+    flex: 1.6
+    transition: all 2s
+    &::after
+      transition: all 2s
+      opacity: 1
