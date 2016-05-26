@@ -1,23 +1,17 @@
 $header-width: 180px
 
 header.site-header
-  position: relative
-  padding: 1em 0
-  @media (max-width: $screen-md-min)
-    width: 100%
-
-.header-position
-  position: fixed
-  display: flex
-  flex-direction: column
-  justify-content: space-between
-  top: 0
+  position: absolute
+  padding: 2em
+  top: 50%
   left: 0
-  bottom: 0
-  width: $header-width
+  background: rgba($dark-primary-color,0.75)
+  transform: translateY(-50%)
   @media (max-width: $screen-md-min)
-    width: 100%
+    background: none
+    transform: none
     position: relative
+    width: 100%
 
 .site-name
   color: $offwhite
@@ -47,7 +41,6 @@ header.site-header
   text-align: center
   @media (max-width: $screen-md-min)
     display: none
-
 
 .nav-stacked
   @media (max-width: $screen-md-min)
