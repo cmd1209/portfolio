@@ -1,0 +1,40 @@
+@mixin flex-growth
+  flex: 1.25
+
+.flex-container
+  display: flex
+  flex-direction: column
+  height: 100vh
+
+.flex-row
+  display: flex
+  flex: 1
+  transition: all 1.40s
+  &:hover
+    @include flex-growth
+    transition: all 1.40s
+
+.flex-box
+  flex: 1
+  position: relative
+  transition: all 1.40s
+  @media (max-width: $screen-md-min)
+  &::after
+    content: ""
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    opacity: 0.25
+    z-index: -1
+    transition: all 1.40s
+  &:hover
+    @include flex-growth
+    transition: all 1.40s
+    &::after
+      transition: all 1.40s
+      opacity: 1
