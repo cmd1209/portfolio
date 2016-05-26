@@ -10,11 +10,12 @@
   display: flex
   flex: 1
   transition: all 1.40s
-  &:active
+  &:hover
     @include flex-growth
     transition: all 1.40s
 
 .flex-box
+  position: relative
   flex: 1
   position: relative
   transition: all 1.40s
@@ -32,9 +33,17 @@
     opacity: 0.25
     z-index: -1
     transition: all 1.40s
-  &:active
+  &:hover
     @include flex-growth
     transition: all 1.40s
     &::after
       transition: all 1.40s
       opacity: 1
+
+.talent-headline
+  padding: 1em
+  position: absolute
+  bottom: 0
+  left: 0
+  background-color: rgba($secondary-color,0.75)
+  color: $offwhite
