@@ -15,14 +15,14 @@
     transition: all 1.40s
 
 .flex-box
-  position: relative
   flex: 1
+
+.talent
   position: relative
   transition: all 1.40s
-  @media (max-width: $screen-md-min)
   &::after
+    overflow: hidden
     content: ""
-    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg")
     background-size: cover
     background-repeat: no-repeat
     position: absolute
@@ -39,6 +39,30 @@
     &::after
       transition: all 1.40s
       opacity: 1
+
+.talent-1
+  &::after
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.talent-2
+  &::after
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/illustration.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.talent-3
+  &::after
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/ursala.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+
+.talent-4
+  &::after
+    background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/Portrait.jpg")
+    background-repeat: no-repeat
+    background-size: cover
 
 .talent-headline
   margin: 0
