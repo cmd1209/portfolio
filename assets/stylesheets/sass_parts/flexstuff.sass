@@ -1,6 +1,9 @@
 @mixin flex-growth
   flex: 1.25
 
+@mixin flex-transition
+  transition: all 0.78s
+
 .flex-container
   display: flex
   flex-direction: column
@@ -9,17 +12,17 @@
 .flex-row
   display: flex
   flex: 1
-  transition: all 1.40s
+  @include flex-transition
   &:hover
     @include flex-growth
-    transition: all 1.40s
+    @include flex-transition
 
 .flex-box
   flex: 1
 
 .talent
   position: relative
-  transition: all 1.40s
+  @include flex-transition
   &::after
     overflow: hidden
     content: ""
@@ -32,15 +35,15 @@
     bottom: 0
     opacity: 0.25
     z-index: -1
-    transition: all 1.40s
+    @include flex-transition
   &:hover
     & >.talent-headline
-      transition: all 1.40s
+      @include flex-transition
       font-size: 200%
     @include flex-growth
-    transition: all 1.40s
+    @include flex-transition
     &::after
-      transition: all 1.40s
+      @include flex-transition
       opacity: 1
 
 .talent-1
@@ -48,32 +51,42 @@
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
     background-repeat: no-repeat
     background-size: cover
+  & > .talent-headline
+    bottom: 0
+    right: 0
 
 .talent-2
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/illustration.jpg")
     background-repeat: no-repeat
     background-size: cover
+  & > .talent-headline
+    bottom: 0
+    left: 0
 
 .talent-3
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/ursala.jpg")
     background-repeat: no-repeat
     background-size: cover
+  & > .talent-headline
+    top: 0
+    right: 0
 
 .talent-4
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/Portrait.jpg")
     background-repeat: no-repeat
     background-size: cover
+  & > .talent-headline
+    top: 0
+    left: 0
 
 .talent-headline
-  transition: all 1.40s
+  @include flex-transition
   margin: 0
   padding: 1em
   position: absolute
-  bottom: 0
-  left: 0
   background-color: rgba($secondary-color,0.75)
   color: $offwhite
   a
