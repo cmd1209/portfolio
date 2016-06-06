@@ -1,11 +1,13 @@
-// $( document ).ready(function() {
-//
-//
-//     var talent4 = $(".talent-4");
-//     var row2 = $(".flex-row2");
-//
-//
-//     talent4.css({'flex': '0.4'});
-//     row2.css({'flex': '1.2'});
-//
-// });
+$( document ).ready(function() {
+
+  var typed = $('.talent-2');
+
+  typed.mouseover(function(){
+    $(".element").typed({
+      strings: ["Hello There Friends! This is a Machine Typing."],
+      typeSpeed: 0
+    });
+  });
+
+
+});
