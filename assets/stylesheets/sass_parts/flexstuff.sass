@@ -51,19 +51,19 @@
     left: 0
     right: 0
     bottom: 0
-    opacity: 0.25
+    opacity: 0.30
     z-index: -1
     @include flex-transition
   &:hover
     & >.talent-headline
       @include flex-transition
       font-size: 185%
-      background-color: $dark-primary-color
+      background-color: transparent
     @include flex-growth
     @include flex-transition
     &::after
       @include flex-transition
-      opacity: 1
+      opacity: 0
 
 .full-area
   display: block
@@ -84,6 +84,9 @@
   & > .talent-headline
     bottom: 0
     right: 0
+  & > .typed
+    bottom: 40px
+    right: 0
 
 .talent-2
   &::after
@@ -92,6 +95,9 @@
     background-size: cover
   & > .talent-headline
     bottom: 0
+    left: 0
+  & > .typed
+    bottom: 40px
     left: 0
 
 .talent-3
@@ -102,6 +108,9 @@
   & > .talent-headline
     top: 0
     right: 0
+  & > .typed
+    top: 40px
+    right: 0
 
 .talent-4
   &::after
@@ -110,6 +119,9 @@
     background-size: cover
   & > .talent-headline
     top: 0
+    left: 0
+  & > .typed
+    top: 40px
     left: 0
 
 .talent-headline
@@ -126,14 +138,8 @@
     color: $offwhite
 
 .typed
+  position: absolute
   display: none
-  font-size: 16px
-  padding: 1em
-  // text-align: center
-  // color: $offwhite
-  // padding: 1em
-  // background-color: $dark-primary-color
-  // position: absolute
-  // top: 50%
-  // left: 50%
-  // transform: translateX(-50%)translateY(-50%)
+  padding: 1.5em
+  text-align: center
+  color: $offwhite
