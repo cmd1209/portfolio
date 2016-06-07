@@ -141,5 +141,11 @@
   position: absolute
   display: none
   padding: 1.5em
-  text-align: center
   color: $offwhite
+  @media (max-width: $screen-md-min)
+    text-align: center
+    width: 100%
+  strong
+    padding: 0.5em
+    font-size: 24px
+    background-color: rgba($primary-color, 0.85)

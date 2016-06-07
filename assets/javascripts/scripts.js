@@ -20,7 +20,8 @@ $( document ).ready(function() {
   });
   talent3.mouseover(function(){
     $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["yes baby yes baby yes yes"],
+      strings: ["yes baby yes baby yes yes", "yo yo this is <strong>good</strong>"],
+      backDelay: 750,
       typeSpeed: 0
     });
   });
@@ -43,6 +44,17 @@ $( document ).ready(function() {
   talent4.mouseout(function(){
     $(this).children('.typed').stop().fadeOut('slow');
   });
+
+
+
+  talent1.mouseover(function(){
+    $(".site-header").addClass("outoftheway");
+  });
+  talent1.mouseout(function(){
+    $(".site-header").removeClass("outoftheway");
+  });
+
+
 
 
 });

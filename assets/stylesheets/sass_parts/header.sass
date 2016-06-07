@@ -1,5 +1,8 @@
 $header-width: 180px
 
+@mixin header-transition
+  transition: all 0.78s
+
 header.site-header
   position: absolute
   padding: 2em
@@ -7,6 +10,7 @@ header.site-header
   left: 0
   background: rgba($dark-primary-color,0.75)
   transform: translateY(-50%)
+  @include header-transition
   @media (max-width: $screen-md-min)
     padding: 1em
     width: 100%
@@ -14,6 +18,11 @@ header.site-header
     transform: none
     h1
       font-size: 18px
+
+.outoftheway
+  top: 0!important
+  transform: translateY(0)!important
+  @include header-transition
 
 .site-name
   color: $offwhite
