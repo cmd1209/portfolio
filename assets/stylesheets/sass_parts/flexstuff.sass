@@ -58,12 +58,12 @@
     & >.talent-headline
       @include flex-transition
       font-size: 185%
-      background-color: $dark-primary-color
+      background-color: transparent
     @include flex-growth
     @include flex-transition
     &::after
       @include flex-transition
-      opacity: 1
+      opacity: 0
 
 .full-area
   display: block
@@ -126,14 +126,27 @@
     color: $offwhite
 
 .typed
-  display: none
+  // display: none
   font-size: 16px
   padding: 1em
-  // text-align: center
-  // color: $offwhite
-  // padding: 1em
-  // background-color: $dark-primary-color
-  // position: absolute
-  // top: 50%
-  // left: 50%
-  // transform: translateX(-50%)translateY(-50%)
+  text-align: center
+  color: $offwhite
+  padding: 1em
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%)translateY(-50%)
+
+.subtalents
+  justify-content: flex-start
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  width: 50%
+  height: 50%
+  position: absolute
+  top: 0
+  left: 0
+.subtalent
+  width: 33.33%
+  background-color: rgba($secondary-color, 0.85)
