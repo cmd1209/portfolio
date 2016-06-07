@@ -1,18 +1,17 @@
 $( document ).ready(function() {
 
-  //
-  //
-  // var talent = $('.talent');
-  //
-  //
-  // talent.mouseover(function(){
-  //   $(this).children('.typed').stop().fadeIn('fast').typed({
-  //     stringsElement: $('#typed-strings');
-  //   });
-  // });
-  // talent.mouseout(function(){
-  //   $(this).children('.typed').stop().fadeOut('slow');
-  // });
+  var talent = $('.talent');
+
+
+  talent.mouseover(function(){
+    $(this).find('.typed').stop().fadeIn('fast').typed({
+      strings: ["Hello There Friends! This is a Machine Typing."],
+      typeSpeed: 0
+    });
+  });
+  talent.mouseout(function(){
+    $(this).find('.typed').stop().fadeOut('slow');
+  });
 
 
 });
