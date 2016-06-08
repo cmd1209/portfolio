@@ -7,44 +7,31 @@ $( document ).ready(function() {
   var talent = $(".talent");
 
 
-  talent1.mouseover(function(){
-    $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["Hello There Friends! This is a Machine Typing."],
-      typeSpeed: 0
-    });
-  });
-  talent2.mouseover(function(){
-    $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["talent two to too baby"],
-      typeSpeed: 0
-    });
-  });
-  talent3.mouseover(function(){
-    $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["yes baby yes baby yes yes"],
-      backDelay: 750,
-      typeSpeed: 0
-    });
-  });
-  talent4.mouseover(function(){
-    $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["boogie boogie boogie boogie"],
-      typeSpeed: 0
-    });
-  });
-
-  talent1.mouseout(function(){
-    $(this).children('.typed').stop().fadeOut('slow');
-  });
-  talent2.mouseout(function(){
-    $(this).children('.typed').stop().fadeOut('slow');
-  });
-  talent3.mouseout(function(){
-    $(this).children('.typed').stop().fadeOut('slow');
-  });
-  talent4.mouseout(function(){
-    $(this).children('.typed').stop().fadeOut('slow');
-  });
+  // talent1.mouseover(function(){
+  //   $(this).children('.typed').typed({
+  //     strings: ["Hello There Friends! This is a Machine Typing."],
+  //     typeSpeed: 0
+  //   });
+  // });
+  // talent2.mouseover(function(){
+  //   $(this).children('.typed').typed({
+  //     strings: ["talent two to too baby"],
+  //     typeSpeed: 0
+  //   });
+  // });
+  // talent3.mouseover(function(){
+  //   $(this).children('.typed').typed({
+  //     strings: ["yes baby yes baby yes yes"],
+  //     backDelay: 750,
+  //     typeSpeed: 0
+  //   });
+  // });
+  // talent4.mouseover(function(){
+  //   $(this).children('.typed').typed({
+  //     strings: ["boogie boogie boogie boogie"],
+  //     typeSpeed: 0
+  //   });
+  // });
 
 
   talent.mouseover(function(){

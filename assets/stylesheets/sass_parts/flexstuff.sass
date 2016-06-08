@@ -84,9 +84,6 @@
   & > .talent-headline
     bottom: 0
     right: 0
-  & > .typed
-    bottom: 40px
-    right: 0
 
 .talent-2
   &::after
@@ -95,9 +92,6 @@
     background-size: cover
   & > .talent-headline
     bottom: 0
-    left: 0
-  & > .typed
-    bottom: 40px
     left: 0
 
 .talent-3
@@ -108,9 +102,6 @@
   & > .talent-headline
     top: 0
     right: 0
-  & > .typed
-    top: 40px
-    right: 0
 
 .talent-4
   &::after
@@ -119,9 +110,6 @@
     background-size: cover
   & > .talent-headline
     top: 0
-    left: 0
-  & > .typed
-    top: 40px
     left: 0
 
 .talent-headline
@@ -137,18 +125,12 @@
   a
     color: $offwhite
 
-.typed
-  position: absolute
-  display: none
+.subheadline
   padding: 1.5em
   color: $offwhite
-  @media (max-width: $screen-md-min)
-    text-align: center
-    width: 100%
-  strong
-    padding: 0.5em
-    font-size: 24px
-    background-color: rgba($primary-color, 0.85)
+  text-align: center
+  width: 100%
+  margin-top: 0.5em
 
 .project-wrapper
   display: flex
