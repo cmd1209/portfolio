@@ -4,6 +4,7 @@ $( document ).ready(function() {
   var talent2 = $('.talent-2');
   var talent3 = $('.talent-3');
   var talent4 = $('.talent-4');
+  var talent = $(".talent");
 
 
   talent1.mouseover(function(){
@@ -45,6 +46,13 @@ $( document ).ready(function() {
     $(this).children('.typed').stop().fadeOut('slow');
   });
 
+
+  talent.mouseover(function(){
+    $(this).find('.project-wrapper').addClass('project-visible');
+  });
+  talent.mouseout(function(){
+    $(this).find('.project-wrapper').removeClass('project-visible');
+  });
 
 
   talent1.mouseover(function(){

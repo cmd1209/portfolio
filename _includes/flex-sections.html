@@ -4,11 +4,29 @@
       <a href="#" class="full-area"></a>
       <h4 class="talent-headline">links</h4>
       <h4 class="typed typed-links"></h4>
+      <div class="project-wrapper">
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+      </div>
     </div>
     <div class="flex-box talent talent-2">
       <a href="#" class="full-area"></a>
       <h4 class="talent-headline">works</h4>
       <h4 class="typed typed-works"></h4>
+      <div class="project-wrapper">
+        {% for post in site.categories.work %}
+        <div class="project" style="background-image: url({{post.image.feature}});">
+          <h5>{{ post.title }}</h5>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
   <div class="flex-row flex-row2">
@@ -16,11 +34,36 @@
       <a href="#" class="full-area"></a>
       <h4 class="talent-headline">current</h4>
       <h4 class="typed typed-current"></h4>
+      <div class="project-wrapper">
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+      </div>
     </div>
     <div class="flex-box talent talent-4">
       <a href="#" class="full-area"></a>
       <h4 class="talent-headline">about</h4>
       <h4 class="typed typed-about"></h4>
+      <div class="project-wrapper">
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+        <div class="project">
+          <h5>headline</h5>
+        </div>
+      </div>
     </div>
   </div>
 </section>

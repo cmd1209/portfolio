@@ -149,3 +149,36 @@
     padding: 0.5em
     font-size: 24px
     background-color: rgba($primary-color, 0.85)
+
+.project-wrapper
+  display: flex
+  flex-wrap: wrap
+  opacity: 0
+  width: 75%
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%)translateY(-50%)
+  background-color: transparent
+  @include flex-transition
+
+.project-visible
+  opacity: 1
+  @include flex-transition
+
+.project
+  flex: 1
+  background-size: cover
+  background-repeat: no-repeat
+  height: 185px
+  background-color: $secondary-color
+  margin: 2px
+  @include flex-transition
+  &:hover
+    @include flex-growth
+    @include flex-transition
+
+  h5
+    color: $offwhite
+    text-align: center
+    padding: 2em 1em
