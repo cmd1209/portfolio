@@ -1,69 +1,10 @@
 <section class="flex-container">
   <div class="flex-row flex-row1">
-    <div class="flex-box talent talent-1">
-      <a href="#" class="full-area"></a>
-      <h4 class="talent-headline">{{site.talent1}}</h4>
-      <div class="project-wrapper">
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <h4 class="subheadline">{{site.talent1subhead}}</h4>
-      </div>
-    </div>
-    <div class="flex-box talent talent-2">
-      <a href="#" class="full-area"></a>
-      <h4 class="talent-headline">{{site.talent2}}</h4>
-      <div class="project-wrapper">
-        {% for post in site.categories.work %}
-        <div class="project" style="background-image: url({{post.image.feature}});">
-          <h5>{{ post.title }}</h5>
-        </div>
-        {% endfor %}
-        <h4 class="subheadline">{{site.talent2subhead}}</h4>
-      </div>
-    </div>
+    {% include talent1.html %}
+    {% include talent2.html %}
   </div>
   <div class="flex-row flex-row2">
-    <div class="flex-box talent talent-3">
-      <a href="#" class="full-area"></a>
-      <h4 class="talent-headline">{{site.talent3}}</h4>
-      <div class="project-wrapper">
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <h4 class="subheadline">{{site.talent3subhead}}</h4>
-      </div>
-    </div>
-    <div class="flex-box talent talent-4">
-      <a href="#" class="full-area"></a>
-      <h4 class="talent-headline">{{site.talent4}}</h4>
-      <div class="project-wrapper">
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <div class="project">
-          <h5>headline</h5>
-        </div>
-        <h4 class="subheadline">{{site.talent4subhead}}</h4>
-      </div>
-    </div>
+    {% include talent3.html %}
+    {% include talent4.html %}
   </div>
 </section>
