@@ -21,7 +21,7 @@ $( document ).ready(function() {
   });
   talent3.mouseover(function(){
     $(this).children('.typed').stop().fadeIn('fast').typed({
-      strings: ["yes baby yes baby yes yes", "yo yo this is <strong>good</strong>"],
+      strings: ["yes baby yes baby yes yes"],
       backDelay: 750,
       typeSpeed: 0
     });
