@@ -2,8 +2,8 @@
 title: CMDdesign
 email: chad.m.danford@gmail.com
 
-talent1: works
-talent1subhead: working it every day of my life
+talent1: profile
+talent1subhead: i came, i saw, i conquered!
 
 talent2: projects
 talent2subhead: projects of the last few years
@@ -11,8 +11,8 @@ talent2subhead: projects of the last few years
 talent3: current
 talent3subhead: some of the stuff i'm currently working on
 
-talent4: profile
-talent4subhead: i came, i saw, i conquered!
+talent4: works
+talent4subhead: working it every day of my life
 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this

@@ -29,14 +29,19 @@
 
 .flex-row
   display: flex
-  flex: 1
   @include flex-transition
   &:hover
     @include flex-growth
     @include flex-transition
 
-.flex-box
+.flex-row1
+  flex: 0.75
+.flex-row2
   flex: 1
+
+
+.flex-box
+
 
 .talent
   position: relative
@@ -77,6 +82,7 @@
 
 
 .talent-1
+  flex: 0.75
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
     background-repeat: no-repeat
@@ -86,6 +92,7 @@
     right: 0
 
 .talent-2
+  flex: 1
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/illustration.jpg")
     background-repeat: no-repeat
@@ -95,6 +102,7 @@
     left: 0
 
 .talent-3
+  flex: 0.75
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/ursala.jpg")
     background-repeat: no-repeat
@@ -104,6 +112,7 @@
     right: 0
 
 .talent-4
+  flex: 1
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/Portrait.jpg")
     background-repeat: no-repeat
