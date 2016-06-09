@@ -39,10 +39,6 @@
 .flex-row2
   flex: 1
 
-
-.flex-box
-
-
 .talent
   position: relative
   @include flex-transition
@@ -160,14 +156,14 @@
   @include flex-transition
 
 .project
-  flex: 1 33%
+  flex: 1 auto
   background-size: cover
   background-repeat: no-repeat
   height: 185px
   background-color: $secondary-color
   @include flex-transition
   &:hover
-    @include flex-growth
+    flex: 2 auto
     @include flex-transition
   h5
     margin-top: 0
