@@ -16,6 +16,14 @@
   // animation-fill-mode: both
 
 
+@keyframes breathing
+  from
+    flex: 1
+  50%
+    flex: 0.85
+  to
+    flex: 1
+
 @mixin flex-growth
   flex: 1.25
 
@@ -35,7 +43,11 @@
     @include flex-transition
 
 .flex-row1
-  flex: 0.75
+  animation-name: breathing
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+  animation-duration: 6s
+  animation-fill-mode: both
 .flex-row2
   flex: 1
 
@@ -78,7 +90,11 @@
 
 
 .talent-1
-  flex: 0.75
+  animation-name: breathing
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+  animation-duration: 6s
+  animation-fill-mode: both
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/forms.jpg")
     background-repeat: no-repeat
@@ -98,7 +114,7 @@
     left: 0
 
 .talent-3
-  flex: 0.75
+  flex: 0.85
   &::after
     background: url("https://dl.dropboxusercontent.com/u/947851/portfolio/ursala.jpg")
     background-repeat: no-repeat
