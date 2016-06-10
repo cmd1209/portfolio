@@ -3,9 +3,11 @@
   <h4 class="talent-headline">{{site.talent2}}</h4>
   <div class="project-wrapper">
     {% for post in site.categories.work %}
-    <div class="project" style="background-image: url({{post.image.feature}});">
-      <!-- <h5>{{ post.title }}</h5> -->
-    </div>
+    <a href="{{ post.url | prepend: site.baseurl }}"  class="project" style="background-image: url({{post.image.feature}});">
+      <div class="project-meta">
+        <h4 class="project-title">{{ post.title }}</h4>
+      </div>
+    </a>
     {% endfor %}
   </div>
 </div>
