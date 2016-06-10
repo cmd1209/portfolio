@@ -3,7 +3,7 @@
   <h4 class="talent-headline">{{site.talent2}}</h4>
   <div class="project-wrapper">
     {% for post in site.categories.work %}
-    <a href="{{ post.url | prepend: base.url }}"  class="project" style="background-image: url({{post.image.feature}});">
+    <a href="{{ post.url }}"  class="project" style="background-image: url({{post.image.feature}});">
       <div class="project-meta">
         <h4 class="project-title">{{ post.title }}</h4>
       </div>
