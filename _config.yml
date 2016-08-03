@@ -4,6 +4,8 @@ email: chad.m.danford@gmail.com
 
 collections:
 - exhibitions
+- ad_work
+- web
 
 talent1: profile
 talent1subhead: i came, i saw, i conquered!
@@ -18,9 +20,7 @@ talent4: web
 talent4subhead: working it every day of my life
 
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Pretty much the first portfolio i've done in over 9 years.
 
 baseurl: "/portfolio"
 url: "http://cmd1209.github.io" # the base hostname & protocol for your site
