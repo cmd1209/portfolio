@@ -3,9 +3,13 @@ title: CMDdesign
 email: chad.m.danford@gmail.com
 
 collections:
-- exhibitions
-- ad_work
-- web
+  exhibitions:
+    output: true
+  ad_work:
+    output: true
+  web:
+    output: true
+
 
 talent1: profile
 talent1subhead: i came, i saw, i conquered!
