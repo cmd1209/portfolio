@@ -42,6 +42,8 @@
   display: flex
   flex: 1
   @include flex-transition
+  @media (max-width: $screen-xs-min)
+    flex-direction: column
   &:hover
     @include flex-growth
     @include flex-transition
@@ -49,6 +51,8 @@
   display: flex
   flex: 1
   @include flex-transition
+  @media (max-width: $screen-xs-min)
+    flex-direction: column
   &:hover
     @include flex-growth
     @include flex-transition
