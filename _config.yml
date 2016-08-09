@@ -10,6 +10,19 @@ collections:
   web:
     output: true
 
+defaults:
+  - scope:
+      type: exhibitions
+    values:
+      layout: post
+  - scope:
+      type: ad_work
+    values:
+      layout: post
+  - scope:
+      type: web
+    values:
+      layout: post
 
 talent1: profile
 talent1subhead: i came, i saw, i conquered!
