@@ -10,6 +10,13 @@
   to
     transform: scale3d(1, 1, 1)
 
+@keyframes linkactive
+  from
+    pointer-events: none
+  85%
+    pointer-events: none
+  to
+    pointer-events: auto
 
   // animation-name: yoyo
   // animation-duration: infinit
@@ -36,6 +43,8 @@
   display: flex
   flex-direction: column
   height: 100vh
+  @media (max-width: $screen-xs-min)
+    height: 200vh
 
 .flex-row1
   display: flex
@@ -133,6 +142,14 @@
     top: 0
     left: 0
 
+.talent-1, .talent-2, .talent-3, .talent4
+  .talent-headline
+    @media (max-width: $screen-xs-min)
+      top: auto
+      bottom: 0
+      left: 0
+      right: auto
+
 .talent-headline
   @include flex-transition
   margin: 0
@@ -140,9 +157,7 @@
   position: absolute
   background-color: rgba($secondary-color,0.75)
   color: $offwhite
-  @media (max-width: $screen-md-min)
-    width: 100%
-    text-align: center
+  @media (max-width: $screen-xs-min)
   a
     color: $offwhite
 
@@ -180,13 +195,15 @@
   @include flex-transition
   position: relative
   overflow: hidden
-  &:hover
+  &:hover, &:focus
     .project-meta
       @include master-transition
-      opacity: 1
+      opacity: 0.85
+    .project-title
+      animation: linkactive 0.75s forwards
 
 .project-meta
-  opacity: 0
+  opacity: 0.2
   position: absolute
   top: 0
   left: 0
@@ -196,13 +213,13 @@
   width: 100%
   @include master-transition
 .project-title
+  pointer-events: none
   font-family: 'Gruppo', cursive
   position: absolute
   top: 50%
   left: 50%
   transform: translateX(-50%)translateY(-50%)
   color: $offwhite
-  background-color: $secondary-color
   text-align: center
   padding: 1em
   &:hover
