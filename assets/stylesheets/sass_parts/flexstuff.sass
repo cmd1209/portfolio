@@ -37,7 +37,6 @@
   flex-direction: column
   height: 100vh
 
-
 .flex-row1
   display: flex
   flex: 1
@@ -167,15 +166,13 @@
   right: 0
   background-color: transparent
   @include flex-transition
-  // @media (max-width: $screen-xs-min)
-  //   display: none
 
 .project-visible
   opacity: 1
   @include flex-transition
 
 .project
-  flex: 1 33%
+  flex: 1 50%
   background-size: cover
   background-repeat: no-repeat
   height: 50%
@@ -188,7 +185,6 @@
       @include master-transition
       opacity: 1
 
-
 .project-meta
   opacity: 0
   position: absolute
@@ -200,7 +196,17 @@
   width: 100%
   @include master-transition
 .project-title
-  margin-top: 1em
+  font-family: 'Gruppo', cursive
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%)translateY(-50%)
   color: $offwhite
+  background-color: $secondary-color
   text-align: center
   padding: 1em
+  &:hover
+    background-color: $primary-color
+    text-decoration: none!important
+  &:visited
+    color: $offwhite
