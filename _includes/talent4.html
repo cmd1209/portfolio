@@ -2,9 +2,9 @@
   <h4 class="talent-headline">{{site.talent4}}</h4>
   <div class="project-wrapper">
     {% for web in site.web limit:4 %}
-    <div class="project" style="background-image: url({{web.image.feature}});">
-      <div class="project-meta">
-        <a href="{{ web.url | prepend: site.baseurl }}" class="project-title">{{web.title}}</a>
+    <div class="project">
+      <a href="{{ web.url | prepend: site.baseurl }}" class="project-title">{{web.title}}</a>
+      <div class="project-background" style="background-image: url({{web.image.feature}});">
       </div>
     </div>
     {% endfor %}

@@ -1,41 +1,8 @@
-@keyframes yoyo
-  from
-    transform: scale3d(1, 1, 1)
-  10%, 20%
-    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg)
-  30%, 50%, 70%, 90%
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
-  40%, 60%, 80%
-    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
-  to
-    transform: scale3d(1, 1, 1)
-
-@keyframes linkactive
-  from
-    pointer-events: none
-  85%
-    pointer-events: none
-  to
-    pointer-events: auto
-
-  // animation-name: yoyo
-  // animation-duration: infinit
-  // animation-fill-mode: both
-
-
-@keyframes breathing
-  from
-    transform: scale(1)
-  50%
-    transform: scale(1.12)
-  to
-    transform: scale(1)
-
 @mixin flex-growth
-  flex: 1.25
+  flex: 3
 
 @mixin flex-transition
-  transition: all 0.78s
+  transition: all 0.78s ease-in-out
 @mixin master-transition
   transition: all 0.55s
 
@@ -43,15 +10,11 @@
   display: flex
   flex-direction: column
   height: 100vh
-  @media (max-width: $screen-xs-min)
-    height: 200vh
 
 .flex-row1
   display: flex
   flex: 1
   @include flex-transition
-  @media (max-width: $screen-xs-min)
-    flex-direction: column
   &:hover
     @include flex-growth
     @include flex-transition
@@ -59,8 +22,6 @@
   display: flex
   flex: 1
   @include flex-transition
-  @media (max-width: $screen-xs-min)
-    flex-direction: column
   &:hover
     @include flex-growth
     @include flex-transition
@@ -78,29 +39,18 @@
     left: 0
     right: 0
     bottom: 0
-    opacity: 0.30
+    opacity: 0.25
     z-index: -1
     @include flex-transition
   &:hover
     & >.talent-headline
       @include flex-transition
-      font-size: 185%
-      background-color: transparent
+      background-color: rgba($dark-primary-color,0.75)
     @include flex-growth
     @include flex-transition
     &::after
       @include flex-transition
       opacity: 0
-
-.full-area
-  display: block
-  width: 100%
-  height: 100%
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  bottom: 0
 
 .talent-1
   flex: 1
@@ -142,14 +92,6 @@
     top: 0
     left: 0
 
-.talent-1, .talent-2, .talent-3, .talent4
-  .talent-headline
-    @media (max-width: $screen-xs-min)
-      top: auto
-      bottom: 0
-      left: 0
-      right: auto
-
 .talent-headline
   @include flex-transition
   margin: 0
@@ -157,16 +99,11 @@
   position: absolute
   background-color: rgba($secondary-color,0.75)
   color: $offwhite
+  z-index: 999
   @media (max-width: $screen-xs-min)
+    font-size: 85%
   a
     color: $offwhite
-
-.subheadline
-  padding: 1.5em
-  color: $offwhite
-  text-align: center
-  width: 100%
-  margin-top: 0.5em
 
 .project-wrapper
   display: flex
@@ -179,7 +116,7 @@
   left: 0
   bottom: 0
   right: 0
-  background-color: transparent
+  background: $awesome-lines, $awesome-gradient
   @include flex-transition
 
 .project-visible
@@ -188,42 +125,52 @@
 
 .project
   flex: 1 50%
-  background-size: cover
-  background-repeat: no-repeat
   height: 50%
-  background-color: $secondary-color
   @include flex-transition
   position: relative
   overflow: hidden
   &:hover, &:focus
-    .project-meta
+    .project-title
+      background-color: rgba($dark-primary-color,0.75)
+      @include master-transition
+    .project-background
       @include master-transition
       opacity: 0.85
-    .project-title
-      animation: linkactive 0.75s forwards
-
-.project-meta
-  opacity: 0.2
+.project-background
+  background-size: cover
+  background-repeat: no-repeat
+  opacity: 0.15
   position: absolute
   top: 0
   left: 0
   right: 0
   bottom: 0
-  background: $awesome-lines, $awesome-gradient
   width: 100%
   @include master-transition
+
 .project-title
-  pointer-events: none
   font-family: 'Gruppo', cursive
   position: absolute
-  top: 50%
-  left: 50%
-  transform: translateX(-50%)translateY(-50%)
   color: $offwhite
   text-align: center
   padding: 1em
+  background-color: rgba($secondary-color,0.75)
+  z-index: 1
+  @media (max-width: $screen-xs-min)
+    font-size: 85%
   &:hover
-    background-color: $primary-color
-    text-decoration: none!important
   &:visited
-    color: $offwhite
+    color: $offwhite!important
+
+.project:nth-of-type(1) > .project-title
+  bottom: 0
+  right: 0
+.project:nth-of-type(2) > .project-title
+  bottom: 0
+  left: 0
+.project:nth-of-type(3) > .project-title
+  top: 0
+  right: 0
+.project:nth-of-type(4) > .project-title
+  top: 0
+  left: 0
