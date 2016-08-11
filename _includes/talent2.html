@@ -2,11 +2,8 @@
   <h4 class="talent-headline">{{site.talent2}}</h4>
   <div class="project-wrapper">
     {% for exhibition in site.exhibitions limit:4 %}
-    <div class="project">
+    <div class="project" style="background-image: url({{exhibition.image.feature}});">
       <a href="{{ exhibition.url | prepend: site.baseurl }}" class="project-title">{{exhibition.title}}</a>
-      <div class="project-background" style="background-image: url({{exhibition.image.feature}});">
-        
-      </div>
     </div>
     {% endfor %}
   </div>

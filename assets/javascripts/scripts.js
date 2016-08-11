@@ -5,7 +5,7 @@ $( document ).ready(function() {
   var talent3 = $('.talent-3');
   var talent4 = $('.talent-4');
   var talent = $(".talent");
-
+  var project = $(".project");
 
   // talent1.mouseover(function(){
   //   $(this).children('.typed').typed({
@@ -34,12 +34,15 @@ $( document ).ready(function() {
   // });
 
 
-  talent.mouseover(function(){
+  talent.mouseenter(function(){
     $(this).find('.project-wrapper').addClass('project-visible');
+    $(this).find('.project-title').delay( 400 ).fadeIn( 250 );
   });
-  talent.mouseout(function(){
+  talent.mouseleave(function(){
     $(this).find('.project-wrapper').removeClass('project-visible');
+    $(this).find('.project-title').fadeOut(200);
   });
+
 
 
   talent1.mouseover(function(){

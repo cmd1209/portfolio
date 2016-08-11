@@ -2,10 +2,8 @@
   <h4 class="talent-headline">{{site.talent3}}</h4>
   <div class="project-wrapper">
     {% for ad_work in site.ad_work limit:4 %}
-    <div class="project">
+    <div class="project" style="background-image: url({{ad_work.image.feature}});">
       <a href="{{ ad_work.url | prepend: site.baseurl }}" class="project-title">{{ad_work.title}}</a>
-      <div class="project-background" style="background-image: url({{ad_work.image.feature}});">
-      </div>
     </div>
     {% endfor %}
   </div>
