@@ -4,6 +4,7 @@
     {% for web in site.web limit:4 %}
     <div class="project" style="background-image: url({{web.image.feature}});">
       <a href="{{ web.url | prepend: site.baseurl }}" class="project-title">{{web.title}}</a>
+      <div class="project-background"></div>
     </div>
     {% endfor %}
   </div>

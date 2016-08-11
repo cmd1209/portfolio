@@ -127,7 +127,6 @@
   left: 0
   bottom: 0
   right: 0
-  background: $awesome-lines, $awesome-gradient
   @include flex-transition
 
 .project-visible
@@ -141,7 +140,6 @@
   background-size: cover
   background-repeat: no-repeat
   overflow: hidden
-  opacity: 0.75
   position: relative
 
 .project-title
@@ -151,7 +149,7 @@
   color: $offwhite
   text-align: center
   padding: 1em
-  background-color: rgba($secondary-color,0.75)
+  background-color: rgba($secondary-color,0.85)
   @include master-transition
   z-index: 2
   @media (max-width: $screen-xs-min)
@@ -159,6 +157,15 @@
   &:hover
   &:visited
     color: $offwhite!important
+
+.project-background
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  background: $awesome-lines, $awesome-gradient
+  opacity: 0.85
 
 // .title-visible
 //   @include master-transition

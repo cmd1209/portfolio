@@ -4,6 +4,7 @@
     {% for exhibition in site.exhibitions limit:4 %}
     <div class="project" style="background-image: url({{exhibition.image.feature}});">
       <a href="{{ exhibition.url | prepend: site.baseurl }}" class="project-title">{{exhibition.title}}</a>
+      <div class="project-background"></div>
     </div>
     {% endfor %}
   </div>
