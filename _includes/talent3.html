@@ -3,8 +3,8 @@
   <div class="project-wrapper">
     {% for ad_work in site.ad_work limit:4 %}
     <div class="project" style="background-image: url({{ad_work.image.feature}});">
-      <a href="{{ ad_work.url | prepend: site.baseurl }}" class="project-title">{{ad_work.title}}</a>
-      <div class="project-background"></div>
+      <h5 class="project-title">{{ad_work.title}}</h5>
+      <a class="project-background" href="{{ ad_work.url | prepend: site.baseurl }}"></a>
     </div>
     {% endfor %}
   </div>

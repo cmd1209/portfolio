@@ -144,32 +144,30 @@
 
 .project-title
   display: none
-  font-family: 'Gruppo', cursive
   position: absolute
   color: $offwhite
   text-align: center
+  margin: 0
   padding: 1em
   background-color: rgba($secondary-color,0.85)
-  @include master-transition
   z-index: 2
   @media (max-width: $screen-xs-min)
     font-size: 85%
-  &:hover
-  &:visited
-    color: $offwhite!important
 
 .project-background
+  display: none
   position: absolute
   top: 0
   right: 0
   left: 0
   bottom: 0
   background: $awesome-lines, $awesome-gradient
-  opacity: 0.85
+  opacity: 0.75
+  @include master-transition
+  &:hover
+    opacity: 0.25
+    @include master-transition
 
-// .title-visible
-//   @include master-transition
-//   display: block
 
 .project:nth-of-type(1) > .project-title
   bottom: 0

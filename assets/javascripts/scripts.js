@@ -37,10 +37,12 @@ $( document ).ready(function() {
   talent.mouseenter(function(){
     $(this).find('.project-wrapper').addClass('project-visible');
     $(this).find('.project-title').delay( 400 ).fadeIn( 250 );
+    $(this).find('.project-background').delay( 400 ).fadeIn( 250 );
   });
   talent.mouseleave(function(){
     $(this).find('.project-wrapper').removeClass('project-visible');
     $(this).find('.project-title').fadeOut(200);
+    $(this).find('.project-background').fadeOut(200);
   });
 
 
