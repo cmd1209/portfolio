@@ -34,6 +34,8 @@ $( document ).ready(function() {
   // });
 
 
+
+
   talent.mouseenter(function(){
     $(this).find('.project-wrapper').addClass('project-visible');
     $(this).find('.project-title').delay( 400 ).fadeIn( 250 );
