@@ -31,7 +31,7 @@
     @include flex-growth
     @include flex-transition
     @media (max-width: $screen-xs-min)
-      @include flex-growth-moblie 
+      @include flex-growth-moblie
 
 .talent
   position: relative
@@ -55,7 +55,9 @@
       background-color: rgba($dark-primary-color,0.75)
     @include flex-growth
     @media (max-width: $screen-xs-min)
+      box-shadow: 0 0 50px 25px black
       @include flex-growth-moblie
+      z-index: 999
     @include flex-transition
     &::after
       @include flex-transition
@@ -108,7 +110,7 @@
   position: absolute
   background-color: rgba($secondary-color,0.75)
   color: $offwhite
-  z-index: 999
+  z-index: 9
   @media (max-width: $screen-xs-min)
     font-size: 85%
   a
