@@ -38,11 +38,15 @@ $( document ).ready(function() {
 
   talent.mouseenter(function(){
     $(this).find('.project-wrapper').addClass('project-visible');
+    $(this).find('.project').delay(500).each(function(i) {
+        $(this).delay(400 * i).removeClass('ishidden');
+    });
     // $(this).find('.project-title').delay( 400 ).fadeIn( 250 );
     $(this).find('.project-background').delay( 400 ).fadeIn( 250 );
   });
   talent.mouseleave(function(){
     $(this).find('.project-wrapper').removeClass('project-visible');
+    $(this).find('.project').addClass('ishidden');
     // $(this).find('.project-title').fadeOut(200);
     $(this).find('.project-background').fadeOut(200);
   });
@@ -55,9 +59,6 @@ $( document ).ready(function() {
   talent1.mouseout(function(){
     $(".site-header").removeClass("outoftheway");
   });
-
-
-
 
 
 
