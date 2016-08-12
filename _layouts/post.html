@@ -7,9 +7,12 @@ layout: post
   <body>
     <div class="home-wrapper">
       {% include header.html %}
+      <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-menu-left back-icon"></a>
       <div class="home-sections">
-        <div class="stories">
-          {% include post-content.html %}
+        <div class="stories container">
+          <div class="col-md-8 col-md-offset-2 col-xs-11 col-xs-offset-1">
+            {% include post-content.html %}
+          </div>
         </div>
       </div>
     </div>
