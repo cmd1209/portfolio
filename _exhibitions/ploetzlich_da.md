@@ -1,5 +1,6 @@
 ---
 title:  "Plötzlich Da"
+abbr:  "PDa"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/Ploetzlich-da_LoRes-23.jpg
 ---

@@ -1,5 +1,6 @@
 ---
 title:  "JPK Instruments"
+abbr:  "JPK"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/IMG_264523_Snapseed-2800px.jpg
 ---

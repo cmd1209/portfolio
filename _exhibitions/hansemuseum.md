@@ -1,5 +1,6 @@
 ---
 title:  "European Hansemuseum"
+abbr:  "EHM"
 description: Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/hanse-ausstellung01.jpg

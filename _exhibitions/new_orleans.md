@@ -1,5 +1,6 @@
 ---
 title:  "New Orleans"
+abbr:  "NO"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/New-Orleans_4.jpg
 ---

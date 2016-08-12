@@ -1,5 +1,6 @@
 ---
 title:  "Wälderhaus"
+abbr:  "WH"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/waelderhaus-web.jpg
 ---

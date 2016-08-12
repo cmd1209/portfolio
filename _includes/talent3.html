@@ -4,6 +4,7 @@
     {% for ad_work in site.ad_work limit:4 %}
     <div class="project" style="background-image: url({{ad_work.image.feature}});">
       <h5 class="project-title">{{ad_work.title}}</h5>
+      <h5 class="project-abbr">{{ad_work.abbr}}</h5>
       <a class="project-background" href="{{ ad_work.url | prepend: site.baseurl }}"></a>
     </div>
     {% endfor %}

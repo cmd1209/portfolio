@@ -1,5 +1,6 @@
 ---
 title:  "Rock & Pop Museum"
+abbr:  "RPM"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/RocknPop1.jpg
 ---

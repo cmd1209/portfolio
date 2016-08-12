@@ -1,5 +1,6 @@
 ---
 title:  "Andreas Heller Architects & Designers"
+abbr:  "AHAD"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/studio-andreas-heller.jpg
 ---

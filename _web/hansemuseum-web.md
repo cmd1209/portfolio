@@ -1,5 +1,6 @@
 ---
 title:  "European Hansemuseum"
+abbr:  "EHM"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/hansemuseum-web.jpg
 ---

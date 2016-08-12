@@ -1,5 +1,6 @@
 ---
 title:  "Germans in Australia"
+abbr:  "DEA"
 image:
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
 ---
