@@ -7,7 +7,13 @@
 @mixin flex-transition
   transition: all 0.50s ease-in-out
 @mixin master-transition
-  transition: all 0.60s eas-in-out
+  transition: all 0.60s ease-in-out
+
+@keyframes project-fade
+  100%
+    opacity: 1
+
+
 
 .flex-container
   display: flex
@@ -117,6 +123,7 @@
     color: $offwhite
 
 .project-wrapper
+  padding: 1em
   display: flex
   flex-wrap: wrap
   opacity: 0
@@ -134,16 +141,22 @@
   @include flex-transition
 
 .project
-  flex: 1 50%
-  height: 50%
+  flex-basis: 50%
   @include flex-transition
   background-size: cover
   background-repeat: no-repeat
   overflow: hidden
   position: relative
-
-.ishidden
+  @include master-transition
   opacity: 0
+
+.project-animation
+  animation: project-fade .5s forwards
+
+@for $i from 1 through 5
+  .project
+    &:nth-child(#{$i})
+      animation-delay: (0.35s * $i)
 
 .project-title
   position: absolute
@@ -153,6 +166,8 @@
   padding: 1em
   background-color: rgba($secondary-color,0.85)
   z-index: 2
+  top: 0
+  right: 0
   @media (max-width: $screen-sm-min)
     display: none
 
@@ -163,8 +178,6 @@
     font-size: 90%
     display: block
 
-
-
 .project-background
   display: none
   position: absolute
@@ -173,22 +186,22 @@
   left: 0
   bottom: 0
   background: $awesome-lines, $awesome-gradient
-  opacity: 0.75
+  opacity: 0.50
   @include master-transition
   &:hover
-    opacity: 0.25
+    opacity: 0
     @include master-transition
 
 
-.project:nth-of-type(1) > .project-title
-  bottom: 0
-  right: 0
-.project:nth-of-type(2) > .project-title
-  bottom: 0
-  left: 0
-.project:nth-of-type(3) > .project-title
-  top: 0
-  right: 0
-.project:nth-of-type(4) > .project-title
-  top: 0
-  left: 0
+// .project:nth-of-type(1) > .project-title
+//   bottom: 0
+//   right: 0
+// .project:nth-of-type(2) > .project-title
+//   bottom: 0
+//   left: 0
+// .project:nth-of-type(3) > .project-title
+//   top: 0
+//   right: 0
+// .project:nth-of-type(4) > .project-title
+//   top: 0
+//   left: 0

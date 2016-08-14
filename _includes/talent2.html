@@ -1,8 +1,8 @@
 <div class="flex-box talent talent-2">
   <h4 class="talent-headline">{{site.talent2}}</h4>
   <div class="project-wrapper">
-    {% for exhibition in site.exhibitions limit:4 %}
-    <div class="project ishidden" style="background-image: url({{exhibition.image.feature}});">
+    {% for exhibition in site.exhibitions limit:6 %}
+    <div class="project" style="background-image: url({{exhibition.image.feature}});">
       <h5 class="project-title">{{exhibition.title}}</h5>
       <h5 class="project-abbr">{{exhibition.abbr}}</h5>
       <a class="project-background" href="{{ exhibition.url | prepend: site.baseurl }}"></a>
