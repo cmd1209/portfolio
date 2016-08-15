@@ -33,18 +33,23 @@ $( document ).ready(function() {
   //   });
   // });
 
-
-
+  var projectwrapper = $(this).find('.project-wrapper');
 
   talent.mouseenter(function(){
-    $(this).find('.project-wrapper').addClass('project-visible');
+    projectwrapper.fadeTo("fast", 1);
     $(this).find('.project').addClass('project-animation');
     $(this).find('.project-background').delay( 400 ).fadeIn( 250 );
+    $('.talent').not(this).each(function(){
+         $(this).fadeTo("slow", 0.25);
+     });
   });
   talent.mouseleave(function(){
-    $(this).find('.project-wrapper').removeClass('project-visible');
+    projectwrapper.fadeTo("slow", 0);
     $(this).find('.project').removeClass('project-animation');
     $(this).find('.project-background').fadeOut(200);
+    $('.talent').not(this).each(function(){
+         $(this).fadeTo("fast", 1);
+     });
   });
 
 
