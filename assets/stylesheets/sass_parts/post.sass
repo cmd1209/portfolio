@@ -11,10 +11,22 @@
   @include flex-transition
   &:hover
     @include flex-transition
-    font-size: 175%
+    padding-left: 2em
     background-color: $secondary-color
 
   &:hover
     background-color: rgba($secondary-color,0.75)
     color: $offwhite
     text-decoration: none
+
+
+.post-background-img
+  width: 100%
+  height: 522px
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  @media (max-width: $screen-sm-min)
+    height: 470px
+  @media (max-width: $screen-xs-min)
+    height: 390px

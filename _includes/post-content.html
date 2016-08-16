@@ -1,10 +1,17 @@
 <div class="stories">
   <div id="owl-demo">
-    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
-    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
-    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
-    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
-    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+    {% if page.image.feature %}
+      <div class="post-background-img" style="background-image: url({{page.image.feature}});"></div>
+    {% endif %}
+    {% if page.image.img2 %}
+      <div class="post-background-img" style="background-image: url({{page.image.img2}});"></div>
+    {% endif %}
+    {% if page.image.img3 %}
+      <div class="post-background-img" style="background-image: url({{page.image.img3}});"></div>
+    {% endif %}
+    {% if page.image.img4 %}
+      <div class="post-background-img" style="background-image: url({{page.image.img4}});"></div>
+    {% endif %}
   </div>
   <div class="col-md-8 col-md-offset-2 col-xs-11 col-xs-offset-1">
     <header class="post-header">
