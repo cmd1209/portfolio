@@ -1,12 +1,21 @@
-<header class="post-header">
-  <h2 class="post-title">{{ page.title }}</h2>
-  <!-- <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> -->
-  {% if page.description %}
-    <h4>{{ page.description }}</h4>
-  {% endif %}
-  <img class="img-responsive" src="{{page.image.feature}}" alt="" />
-</header>
-
-<article class="post-content">
-  {{ content }}
-</article>
+<div class="stories">
+  <div id="owl-demo">
+    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+    <img class="img-responsive" src="{{page.image.feature}}" alt="" />
+  </div>
+  <div class="col-md-8 col-md-offset-2 col-xs-11 col-xs-offset-1">
+    <header class="post-header">
+      <h2 class="post-title">{{ page.title }}</h2>
+      <!-- <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> -->
+      {% if page.description %}
+      <h4>{{ page.description }}</h4>
+      {% endif %}
+    </header>
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
+</div>

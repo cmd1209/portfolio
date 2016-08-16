@@ -3,6 +3,8 @@ title: CMDdesign
 email: chad.m.danford@gmail.com
 
 collections:
+  profile:
+    output: true
   exhibitions:
     output: true
   ad_work:
@@ -11,6 +13,10 @@ collections:
     output: true
 
 defaults:
+  - scope:
+      type: profile
+    values:
+      layout: post
   - scope:
       type: exhibitions
     values:

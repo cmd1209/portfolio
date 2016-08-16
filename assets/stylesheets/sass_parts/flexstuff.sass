@@ -70,7 +70,8 @@
       opacity: 0
 
 
-$titlepadding: 2.6em
+$titlepadding: 55px
+$title-padding-mobile: 36.78px
 
 .talent-1
   flex: 1
@@ -83,6 +84,8 @@ $titlepadding: 2.6em
     right: 0
   & > .project-wrapper
     padding-bottom: $titlepadding
+    @media (max-width: $screen-xs-min)
+      padding-bottom: $title-padding-mobile
 
 .talent-2
   flex: 1.12
@@ -95,6 +98,8 @@ $titlepadding: 2.6em
     left: 0
   & > .project-wrapper
     padding-bottom: $titlepadding
+    @media (max-width: $screen-xs-min)
+      padding-bottom: $title-padding-mobile
 
 .talent-3
   flex: 1
@@ -107,6 +112,8 @@ $titlepadding: 2.6em
     right: 0
   & > .project-wrapper
     padding-top: $titlepadding
+    @media (max-width: $screen-xs-min)
+      padding-top: $title-padding-mobile
 
 .talent-4
   flex: 1.12
@@ -119,6 +126,8 @@ $titlepadding: 2.6em
     left: 0
   & > .project-wrapper
     padding-top: $titlepadding
+    @media (max-width: $screen-xs-min)
+      padding-top: $title-padding-mobile
 
 .talent-headline
   @include flex-transition
@@ -165,7 +174,7 @@ $titlepadding: 2.6em
   padding: 9em 1em 1em 5em
   flex-basis: 100%
   @media (max-width: $screen-xs-min)
-    padding: 3em 1em 1em 2em
+    padding: 5em 1em 1em 2em
 
 .padding-left
   padding-left: 5em
