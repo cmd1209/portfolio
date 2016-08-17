@@ -36,17 +36,15 @@ $( document ).ready(function() {
   var projectwrapper = $(this).find('.project-wrapper');
 
   talent.mouseenter(function(){
-    projectwrapper.fadeTo("fast", 1);
+    $(this).find('.project').fadeIn();
     $(this).find('.project').addClass('project-animation');
-    $(this).find('.project-background').delay( 400 ).fadeIn( 250 );
     $('.talent').not(this).each(function(){
-         $(this).fadeTo("slow", 0.25);
+         $(this).fadeTo("fast", 0.2);
      });
   });
   talent.mouseleave(function(){
-    projectwrapper.fadeTo("slow", 0);
     $(this).find('.project').removeClass('project-animation');
-    $(this).find('.project-background').fadeOut(200);
+    $(this).find('.project').fadeOut();
     $('.talent').not(this).each(function(){
          $(this).fadeTo("fast", 1);
      });

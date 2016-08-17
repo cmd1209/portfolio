@@ -1,17 +1,19 @@
 @mixin flex-growth
-  flex: 2
+  flex: 2.25
 
 @mixin flex-growth-moblie
-  flex: 10
+  flex: 9
 
 @mixin flex-transition
   transition: all 0.50s ease-in-out
 @mixin master-transition
   transition: all 0.60s ease-in-out
+@mixin snappy-transition
+  transition: all 0.23s ease-in
 
 @keyframes project-fade
   100%
-    opacity: 1
+    transform: scale(1,1)
 
 
 
@@ -82,10 +84,6 @@ $title-padding-mobile: 36.78px
   & > .talent-headline
     bottom: 0
     right: 0
-  & > .project-wrapper
-    padding-bottom: $titlepadding
-    @media (max-width: $screen-xs-min)
-      padding-bottom: $title-padding-mobile
 
 .talent-2
   flex: 1.12
@@ -96,10 +94,6 @@ $title-padding-mobile: 36.78px
   & > .talent-headline
     bottom: 0
     left: 0
-  & > .project-wrapper
-    padding-bottom: $titlepadding
-    @media (max-width: $screen-xs-min)
-      padding-bottom: $title-padding-mobile
 
 .talent-3
   flex: 1
@@ -110,10 +104,6 @@ $title-padding-mobile: 36.78px
   & > .talent-headline
     top: 0
     right: 0
-  & > .project-wrapper
-    padding-top: $titlepadding
-    @media (max-width: $screen-xs-min)
-      padding-top: $title-padding-mobile
 
 .talent-4
   flex: 1.12
@@ -124,10 +114,6 @@ $title-padding-mobile: 36.78px
   & > .talent-headline
     top: 0
     left: 0
-  & > .project-wrapper
-    padding-top: $titlepadding
-    @media (max-width: $screen-xs-min)
-      padding-top: $title-padding-mobile
 
 .talent-headline
   @include flex-transition
@@ -136,7 +122,6 @@ $title-padding-mobile: 36.78px
   position: absolute
   background-color: rgba($secondary-color,0.75)
   color: $offwhite
-  z-index: 9
   @media (max-width: $screen-xs-min)
     font-size: 85%
   a
@@ -145,7 +130,6 @@ $title-padding-mobile: 36.78px
 .project-wrapper
   display: flex
   flex-wrap: wrap
-  opacity: 0
   width: 100%
   height: 100%
   position: absolute
@@ -155,30 +139,6 @@ $title-padding-mobile: 36.78px
   right: 0
   @include flex-transition
 
-.project-visible
-  opacity: 1
-  @include flex-transition
-
-.project
-  flex-basis: 50%
-  @include flex-transition
-  background-size: cover
-  background-repeat: no-repeat
-  overflow: hidden
-  position: relative
-  @include master-transition
-  opacity: 0
-  color: $offwhite
-
-.project-single
-  padding: 9em 1em 1em 5em
-  flex-basis: 100%
-  @media (max-width: $screen-xs-min)
-    padding: 5em 1em 1em 2em
-
-.padding-left
-  padding-left: 5em
-
 .project-animation
   animation: project-fade .5s forwards
 
@@ -187,16 +147,39 @@ $title-padding-mobile: 36.78px
     &:nth-child(#{$i})
       animation-delay: (0.35s * $i)
 
+.project
+  display: none
+  flex-basis: 50%
+  background-size: cover
+  background-repeat: no-repeat
+  overflow: hidden
+  position: relative
+  @include snappy-transition
+  transform: scale(0,0)
+  color: $offwhite
+  &:hover
+    .project-title
+      transform: translateY(0)translateX(0)
+      @include snappy-transition
+
+.padding-left
+  padding-left: 5em
+
+
 .project-title
   position: absolute
   color: $offwhite
   text-align: center
   margin: 0
-  padding: 1em
+  padding: 1.5em
   background-color: rgba($secondary-color,0.85)
   z-index: 2
   top: 0
   right: 0
+  bottom: 0
+  left: 0
+  transform: translateY(100%)translateX(-100%)
+  @include snappy-transition
   @media (max-width: $screen-sm-min)
     display: none
 
@@ -204,19 +187,6 @@ $title-padding-mobile: 36.78px
   @extend .project-title
   display: none
   @media (max-width: $screen-sm-min)
+    transform: translateY(75%)translateX(0)
     font-size: 90%
     display: block
-
-.project-background
-  display: none
-  position: absolute
-  top: 0
-  right: 0
-  left: 0
-  bottom: 0
-  background: $awesome-lines, $awesome-gradient
-  opacity: 0.50
-  @include master-transition
-  &:hover
-    opacity: 0
-    @include master-transition

@@ -1,12 +1,11 @@
 <div class="flex-box talent talent-4">
   <h4 class="talent-headline">{{site.talent4}}</h4>
   <div class="project-wrapper">
-    {% for web in site.web limit:4 %}
-    <div class="project" style="background-image: url({{web.image.feature}});">
-      <h5 class="project-title">{{web.title}}</h5>
-      <h5 class="project-abbr">{{web.abbr}}</h5>
-      <a class="project-background" href="{{ web.url | prepend: site.baseurl }}"></a>
-    </div>
+    {% for web in site.web limit:6 %}
+      <a class="project" href="{{ web.url | prepend: site.baseurl }}" style="background-image: url({{web.image.feature}});">
+        <h5 class="project-title">{{web.title}}</h5>
+        <h5 class="project-abbr">{{web.abbr}}</h5>
+      </a>
     {% endfor %}
   </div>
 </div>
