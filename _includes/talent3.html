@@ -3,8 +3,13 @@
   <div class="project-wrapper">
     {% for ad_work in site.ad_work limit:6 %}
       <a class="project" href="{{ ad_work.url | prepend: site.baseurl }}" style="background-image: url({{ad_work.image.feature}});">
-        <h5 class="project-title">{{ad_work.title}}</h5>
-        <h5 class="project-abbr">{{ad_work.abbr}}</h5>
+        <div class="project-meta">
+          <div class="project-meta-text">
+            <h4 class="project-title">{{ad_work.title}}</h4>
+            <!-- <h5 class="project-abbr">{{ad_work.abbr}}</h5> -->
+            <p class="project-facts">{{ad_work.facts}}</p>
+          </div>
+        </div>
       </a>
     {% endfor %}
   </div>

@@ -1,6 +1,7 @@
 ---
 title:  "Andreas Heller Architects & Designers"
 abbr:  "AHAD"
+facts: Some Serious Fun!
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/SAH-Web-Responsive-thumb.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/SAH-Web-Responsive.jpg

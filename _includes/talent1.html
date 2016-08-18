@@ -2,9 +2,13 @@
   <h4 class="talent-headline">{{site.talent1}}</h4>
   <div class="project-wrapper">
     {% for profile in site.profile limit:4 %}
-      <a class="project" href="{{ profile.url | prepend: site.baseurl }}">
-        <h5 class="project-title">{{profile.title}}</h5>
-        <p>{{profile.excerpt}}</p>
+      <a class="project" href="{{ profile.url | prepend: site.baseurl }}" style="background-image: url({{profile.image.thumbnail}});">
+        <div class="project-meta">
+          <div class="project-meta-text">
+            <h4 class="project-title">{{profile.title}}</h4>
+            <p class="project-facts">{{profile.facts}}</p>
+          </div>
+        </div>
       </a>
     {% endfor %}
   </div>
