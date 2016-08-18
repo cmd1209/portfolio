@@ -1,7 +1,7 @@
 ---
 title:  "References"
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-01.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-04.png
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
 facts: A Body of Work as Large as the Ocean.
 ---

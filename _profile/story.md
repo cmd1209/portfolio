@@ -1,7 +1,7 @@
 ---
 title:  "Story"
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-01.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-01.png
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
 facts: Drinking Alot these Days.
 ---

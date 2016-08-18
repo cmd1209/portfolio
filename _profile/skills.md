@@ -1,7 +1,7 @@
 ---
 title:  "Skills"
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-01.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-02.png
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
 facts: Chicharrones lumbersexual.
 ---
