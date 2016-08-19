@@ -2,7 +2,11 @@
   <h4 class="talent-headline">{{site.talent4}}</h4>
   <div class="project-wrapper">
     {% for web in site.web limit:6 %}
+    {% if web.image.thumbnail %}
       <a class="project" href="{{ web.url | prepend: site.baseurl }}" style="background-image: url({{web.image.thumbnail}});">
+    {% else %}
+      <a class="project" href="{{ web.url | prepend: site.baseurl }}" style="background-image: url({{web.image.feature}});">
+    {% endif%}
         <div class="project-meta">
           <div class="project-meta-text">
             <h4 class="project-title">{{web.title}}</h4>
