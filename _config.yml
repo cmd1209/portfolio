@@ -1,6 +1,8 @@
 # Site settings
 title: CMDdesign
 email: chad.m.danford@gmail.com
+facebook: facebook.com/chad.danford
+instagram: instagram.com/instamaticchad
 
 collections:
   profile:
@@ -31,24 +33,20 @@ defaults:
       layout: post
 
 talent1: profile
-talent1subhead: i came, i saw, i conquered!
 
 talent2: exhibition
-talent2subhead: projects of the last few years
 
 talent3: ad work
-talent3subhead: some of the stuff i'm currently working on
 
 talent4: web
-talent4subhead: working it every day of my life
 
 description: > # this means to ignore newlines until "baseurl:"
   Pretty much the first portfolio i've done in over 9 years.
 
 baseurl: "/portfolio"
 url: "http://cmd1209.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Chad_M_Danford
+github_username:  cmd1209
 
 # Build settings
 markdown: kramdown
