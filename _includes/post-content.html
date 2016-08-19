@@ -11,16 +11,16 @@
     </header>
     <div id="owl-demo" class="slideshow">
       {% if page.image.feature %}
-      <div class="post-background-img" style="background-image: url({{page.image.feature}});"></div>
+      <img src="{{page.image.feature}}" class="img-responsive" alt="">
       {% endif %}
       {% if page.image.img2 %}
-      <div class="post-background-img" style="background-image: url({{page.image.img2}});"></div>
+      <img src="{{page.image.img2}}" class="img-responsive" alt="">
       {% endif %}
       {% if page.image.img3 %}
-      <div class="post-background-img" style="background-image: url({{page.image.img3}});"></div>
+      <img src="{{page.image.img3}}" class="img-responsive" alt="">
       {% endif %}
       {% if page.image.img4 %}
-      <div class="post-background-img" style="background-image: url({{page.image.img4}});"></div>
+      <img src="{{page.image.img4}}" class="img-responsive" alt="">
       {% endif %}
     </div>
     <article class="post-content">
@@ -31,3 +31,19 @@
     </article>
   </div>
 </div>
+
+
+<!-- <div id="owl-demo" class="slideshow">
+  {% if page.image.feature %}
+  <div class="post-background-img" style="background-image: url({{page.image.feature}});"></div>
+  {% endif %}
+  {% if page.image.img2 %}
+  <div class="post-background-img" style="background-image: url({{page.image.img2}});"></div>
+  {% endif %}
+  {% if page.image.img3 %}
+  <div class="post-background-img" style="background-image: url({{page.image.img3}});"></div>
+  {% endif %}
+  {% if page.image.img4 %}
+  <div class="post-background-img" style="background-image: url({{page.image.img4}});"></div>
+  {% endif %}
+</div> -->
