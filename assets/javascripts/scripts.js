@@ -53,10 +53,10 @@ $( document ).ready(function() {
 
 
   talent1.mouseover(function(){
-    $(".site-header").addClass("outoftheway");
+    $(".site-logo").addClass("outoftheway");
   });
   talent1.mouseout(function(){
-    $(".site-header").removeClass("outoftheway");
+    $(".site-logo").removeClass("outoftheway");
   });
 
   $("#owl-demo").owlCarousel({

@@ -3,7 +3,7 @@ $header-width: 180px
 @mixin header-transition
   transition: all 0.78s
 
-header.site-header
+.site-logo
   position: absolute
   padding: 2em
   top: 20%
@@ -12,7 +12,11 @@ header.site-header
   transform: translateY(-50%)
   @include header-transition
   z-index: 9
+  &:hover
+    text-decoration: none!important
+    background: rgba($secondary-color, 0.75)
   @media (max-width: $screen-md-min)
+    width: 16.66667%
     position: fixed
     padding: 0.7em 1em
     top: 0
@@ -20,16 +24,6 @@ header.site-header
     transform: none
     h1
       font-size: 18px
-
-.outoftheway
-  top: 0!important
-  transform: translateY(0)!important
-  @include header-transition
-
-a.site-logo
-  &:hover
-    .site-name
-      color: $secondary-color
 
 .site-name
   color: $offwhite
@@ -42,27 +36,7 @@ a.site-logo
   // i
   //   text-shadow: 0px 9px 8px rgba(white,0.25)
 
-.side-nav
-  margin: 1em 0
-  li.active
-    a
-      color: $cool-grey
-  a
-    color: $primary-color
-    font-size: 120%
-    &:hover
-      color: white
-
-.header-links
-  color: $gray_dark
-  margin: 0.5em
-  text-align: center
-  @media (max-width: $screen-md-min)
-    display: none
-
-.nav-stacked
-  @media (max-width: $screen-md-min)
-    margin: 0 auto
-  li
-    @media (max-width: $screen-md-min)
-      display: inline-block
+.outoftheway
+  top: 0!important
+  transform: translateY(0)!important
+  @include header-transition
