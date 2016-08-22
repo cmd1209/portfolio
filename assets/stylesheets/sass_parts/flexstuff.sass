@@ -71,6 +71,24 @@
       @include flex-transition
       opacity: 0
 
+.guide
+  position: absolute
+  z-index: 999
+  opacity: 0.5
+  font-size: 350%
+  color: $offwhite
+  pointer-events: none
+
+.guide-down
+  bottom: 0
+  left: 50%
+  transform: translateY(100%)
+
+.guide-right
+  top: 50%
+  right: 0
+  transform: translateX(100%)
+
 
 $titlepadding: 55px
 $title-padding-mobile: 36.78px
@@ -177,28 +195,48 @@ $title-padding-mobile: 36.78px
   right: 0
   bottom: 0
   left: 0
-  width: 101%
-  height: 101%
+  width: 100%
+  height: 100%
   transform: translateY(100%)translateX(-100%)
   @include snappy-transition
   @media (max-width: $screen-sm-min)
     transform: translateY(0)translateX(0)
     background-color: rgba($secondary-color,0.70)
 
+
 .project-meta-text
   position: absolute
-  top: 50%
-  left: 50%
-  transform: translateX(-50%)translateY(-50%)
+  padding: 0.8em 1em
+  width: 100%
+
+.talent-1
+  .project-meta-text
+    bottom: 0
+    right: 0
+    text-align: right
+.talent-2
+  .project-meta-text
+    text-align: left
+    bottom: 0
+    left: 0
+.talent-3
+  .project-meta-text
+    top: 0
+    text-align: right
+    right: 0
+.talent-4
+  .project-meta-text
+    text-align: left
+    top: 0
+    left: 0
 
 .project-title
   color: $offwhite
-  text-align: center
   width: 100%
   @media (max-width: $screen-sm-min)
     font-size: 85%
 .project-facts
-  margin-top: 0.5em
+  margin-top: 0.35em
   color: $offwhite
   @media (max-width: $screen-sm-min)
     display: none
