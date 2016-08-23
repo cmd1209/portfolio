@@ -4,7 +4,16 @@
   <body>
     <div class="home">
     {% include header.html %}
-    {% include flex-sections.html %}
+    <section class="flex-container">
+      <div class="flex-row flex-row1">
+        {% include talent1.html %}
+        {% include talent2.html %}
+      </div>
+      <div class="flex-row flex-row2">
+        {% include talent3.html %}
+        {% include talent4.html %}
+      </div>
+    </section>
   </div>
   </body>
 </html>
