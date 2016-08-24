@@ -7,9 +7,38 @@ layout: post
   <body>
     <div class="home-wrapper">
       {% include header.html %}
-          <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-menu-left back-icon"></a>
+          <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
       <div class="home-sections">
-            {% include post-content.html %}
+        <div class="stories">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern">
+            <header class="post-header">
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% if page.description %}
+              <h4>{{ page.description }}</h4>
+              {% endif %}
+            </header>
+            <div id="owl-demo" class="slideshow">
+              {% if page.image.feature %}
+              <img src="{{page.image.feature}}" class="img-responsive" alt="">
+              {% endif %}
+              {% if page.image.img2 %}
+              <img src="{{page.image.img2}}" class="img-responsive" alt="">
+              {% endif %}
+              {% if page.image.img3 %}
+              <img src="{{page.image.img3}}" class="img-responsive" alt="">
+              {% endif %}
+              {% if page.image.img4 %}
+              <img src="{{page.image.img4}}" class="img-responsive" alt="">
+              {% endif %}
+            </div>
+            <article class="post-content">
+              {{ content }}
+              {% if page.link %}
+              <a href="http://www.{{page.link}}" class="btn post-link">{{page.link}}</a>
+              {% endif %}
+            </article>
+          </div>
+        </div>
       </div>
     </div>
   </body>

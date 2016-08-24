@@ -1,13 +1,15 @@
 <div class="stories">
-  <!-- <div class="fun" style="background-image: url({{page.image.thumbnail}});">
-  </div> -->
   <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern">
     <header class="post-header">
       <h2 class="post-title">{{ page.title }}</h2>
-      <!-- <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p> -->
       {% if page.description %}
       <h4>{{ page.description }}</h4>
       {% endif %}
+      <!-- {% for profile in site.profile %}
+      <a href="{{ profile.url | prepend: site.baseurl }}" >
+        <h4 class="project-title">{{profile.title}}</h4>
+      </a>
+      {% endfor %} -->
     </header>
     <div id="owl-demo" class="slideshow">
       {% if page.image.feature %}

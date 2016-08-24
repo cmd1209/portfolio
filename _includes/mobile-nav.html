@@ -1,0 +1,6 @@
+<div class="menu-wrapper">
+  {% for exhibition in site.exhibitions %}
+    <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
+    <a class="link" href="{{ exhibition.url | prepend: site.baseurl }}">{{exhibition.title}}</a>
+  {% endfor %}
+</div>
