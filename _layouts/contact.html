@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="home-wrapper">
+      {% include header.html %}
+          <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
+      <div class="home-sections">
+        <div class="stories">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern">
+            <header class="post-header">
+              <h2 class="post-title">{{ page.title }}</h2>
+              </header>
+            <article class="post-content">
+              {% for profile in site.profile limit:4 %}
+                <h4 class="project-title">{{profile.title}}</h4>
+                {{ profile.excerpt }}
+              {% endfor %}
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
