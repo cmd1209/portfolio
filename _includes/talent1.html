@@ -2,7 +2,7 @@
   <h4 class="talent-headline">{{site.talent1}}</h4>
   <div class="project-wrapper">
     {% for profile in site.profile limit:4 %}
-      <a class="project" href="contact.html" style="background-image: url({{profile.image.thumbnail}});">
+      <a class="project" href="contact.html#{{profile.title}}" style="background-image: url({{profile.image.thumbnail}});">
         <div class="project-meta">
           <div class="project-meta-text">
             <h4 class="project-title">{{profile.title}}</h4>
