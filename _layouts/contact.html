@@ -12,11 +12,17 @@
               <h2 class="post-title">{{ page.title }}</h2>
               </header>
             <article class="post-content">
-              {% for profile in site.profile reversed limit:4 %}
-                <a id="{{profile.title}}"></a>
-                <h2 class="post-title">{{ profile.title }}</h2>
-                {{ profile.content }}
-              {% endfor %}
+              <div class="row">
+                {% for profile in site.profile reversed limit:4 %}
+                  <div class="col-md-6">
+                    <a id="{{profile.title}}"></a>
+                    <h2 class="post-title">{{ profile.title }}</h2>
+                    {{ profile.content }}
+                    
+                  </div>
+                {% endfor %}
+
+              </div>
             </article>
           </div>
         </div>

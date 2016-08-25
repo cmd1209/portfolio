@@ -11,26 +11,13 @@ layout: post
       <div class="home-sections">
         <div class="stories">
           <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern">
+            <img src="{{page.image.feature}}" class="img-responsive" alt="">
             <header class="post-header">
               <h2 class="post-title">{{ page.title }}</h2>
               {% if page.description %}
-              <h4>{{ page.description }}</h4>
+              <h4 class="post-description">{{ page.description }}</h4>
               {% endif %}
             </header>
-            <div id="owl-demo" class="slideshow">
-              {% if page.image.feature %}
-              <img src="{{page.image.feature}}" class="img-responsive" alt="">
-              {% endif %}
-              {% if page.image.img2 %}
-              <img src="{{page.image.img2}}" class="img-responsive" alt="">
-              {% endif %}
-              {% if page.image.img3 %}
-              <img src="{{page.image.img3}}" class="img-responsive" alt="">
-              {% endif %}
-              {% if page.image.img4 %}
-              <img src="{{page.image.img4}}" class="img-responsive" alt="">
-              {% endif %}
-            </div>
             <article class="post-content">
               {{ content }}
               {% if page.link %}
@@ -43,3 +30,19 @@ layout: post
     </div>
   </body>
 </html>
+
+
+<!-- <div id="owl-demo" class="slideshow">
+  {% if page.image.feature %}
+  <img src="{{page.image.feature}}" class="img-responsive" alt="">
+  {% endif %}
+  {% if page.image.img2 %}
+  <img src="{{page.image.img2}}" class="img-responsive" alt="">
+  {% endif %}
+  {% if page.image.img3 %}
+  <img src="{{page.image.img3}}" class="img-responsive" alt="">
+  {% endif %}
+  {% if page.image.img4 %}
+  <img src="{{page.image.img4}}" class="img-responsive" alt="">
+  {% endif %}
+</div> -->
