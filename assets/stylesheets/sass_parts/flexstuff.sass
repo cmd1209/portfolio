@@ -12,6 +12,8 @@
   transition: all 0.23s ease-in
 
 @keyframes project-fade
+  75%
+    transform: scale(1.2,1.2)
   100%
     transform: scale(1,1)
 
@@ -171,12 +173,12 @@ $title-padding-mobile: 36.78px
   @include flex-transition
 
 .project-animation
-  animation: project-fade .5s forwards
+  animation: project-fade .33s forwards
 
 @for $i from 1 through 5
   .project
     &:nth-child(#{$i})
-      animation-delay: (0.35s * $i)
+      animation-delay: (0.27s * $i)
 
 .project
   display: none

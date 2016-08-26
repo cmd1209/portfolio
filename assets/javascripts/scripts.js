@@ -37,14 +37,14 @@ $( document ).ready(function() {
 
   talent.mouseenter(function(){
     $(this).find('.project').fadeIn();
-    $(this).find('.guide').fadeTo("fast",0.3);
+    // $(this).find('.guide').fadeTo("fast",0.3);
     $(this).find('.project').addClass('project-animation');
     $('.talent').not(this).each(function(){
          $(this).fadeTo("fast", 0.2);
      });
   });
   talent.mouseleave(function(){
-    $(this).find('.guide').fadeTo("fast",0);
+    // $(this).find('.guide').fadeTo("fast",0);
     $(this).find('.project').removeClass('project-animation');
     $(this).find('.project').fadeOut();
     $('.talent').not(this).each(function(){
