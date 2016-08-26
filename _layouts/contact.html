@@ -5,15 +5,10 @@
     <div class="home-wrapper">
       {% include header.html %}
           <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
-
           <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern stories">
-            <!-- <header class="post-header">
-              <h2 class="post-title">{{ page.title }}</h2>
-              </header> -->
-            <article class="post-content">
               <div class="row">
                 <div class="col-md-6 clearfix">
-                  {% for profile in site.profile offset:2 reversed limit:2 %}
+                  {% for profile in site.profile reversed limit:2 offset:2 %}
                   <article class="post-container">
                       <div class="profile-background-container">
                         <header class="post-header">
@@ -49,12 +44,8 @@
                   </article>
                   {% endfor %}
                 </div>
-
-
               </div>
-            </article>
           </div>
-
     </div>
   </body>
 </html>
