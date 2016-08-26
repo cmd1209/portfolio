@@ -2,10 +2,8 @@
 title:  "Germans in Australia"
 abbr:  "DEA"
 image:
-  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
-  img2: https://dl.dropboxusercontent.com/u/947851/portfolio/hanse-ausstellung01.jpg
-  img3: https://dl.dropboxusercontent.com/u/947851/portfolio/hanse-ausstellung01.jpg
-  img4: https://dl.dropboxusercontent.com/u/947851/portfolio/hanse-ausstellung01.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg
+  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg
 
 ---
 Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.

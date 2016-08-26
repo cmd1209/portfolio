@@ -1,8 +1,8 @@
 ---
 title:  "Contact"
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile-thumb-03.png
-  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/australien-lo.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-03.png
+  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-03.png
 facts: Chicharrones Contact
 
 ---

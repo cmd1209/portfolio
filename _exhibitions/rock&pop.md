@@ -2,7 +2,8 @@
 title:  "Rock & Pop Museum"
 abbr:  "RPM"
 image:
-  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/RocknPop1.jpg
+  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/RocknPop1.jpg
+  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/RocknPop1.jpg
 ---
 Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
 
