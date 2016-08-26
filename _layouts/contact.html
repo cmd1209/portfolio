@@ -22,6 +22,11 @@
                       <h4 class="post-description">{{ profile.description }}</h4>
                       {% endif %}
                       {{ profile.content }}
+                      <ul>
+                        {% for skill in profile.skill %}
+                          <li>{{ skill.title }} <span>{{skill.value}}</span></li>
+                        {% endfor %}
+                      </ul>
                     </article>
                   {% endfor %}
                 </div>

@@ -3,6 +3,10 @@ title:  "Skills"
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-02.png
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-02.png
-facts: Chicharrones lumbersexual.
+description: Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers
+skill:
+  - title: "photoshop"
+    value: "5"
+  - title: "jekyll"
+    value: "4"
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi. Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers.
