@@ -1,6 +1,6 @@
 ---
 title:  "Germans in Australia"
-abbr:  "DEA"
+description:  Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg

@@ -8,25 +8,24 @@ layout: post
     <div class="home-wrapper">
       {% include header.html %}
           <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
-      <div class="home-sections">
-        <div class="stories">
-          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern">
-            <img src="{{page.image.feature}}" class="img-responsive" alt="">
-            <header class="post-header">
-              <h2 class="post-title">{{ page.title }}</h2>
-              {% if page.description %}
-              <h4 class="post-description">{{ page.description }}</h4>
-              {% endif %}
-            </header>
-            <article class="post-content">
-              {{ content }}
-              {% if page.link %}
-              <a href="http://www.{{page.link}}" class="btn post-link">{{page.link}}</a>
-              {% endif %}
-            </article>
-          </div>
-        </div>
-      </div>
+            <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern stories">
+              <div class="post-background-container">
+                <header class="post-header">
+                  <h2 class="post-title">{{ page.title }}</h2>
+                </header>
+                <div class="post-background-img" style="background-image: url({{page.image.thumbnail}});">
+                </div>
+              </div>
+              <article class="post-content">
+                {% if page.description %}
+                <h4 class="post-description">{{ page.description }}</h4>
+                {% endif %}
+                {{ content }}
+                {% if page.link %}
+                <a href="http://www.{{page.link}}" class="btn post-link">{{page.link}}</a>
+                {% endif %}
+              </article>
+            </div>
     </div>
   </body>
 </html>
