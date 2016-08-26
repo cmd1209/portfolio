@@ -43,9 +43,9 @@
   margin: -15px 0 1.25em -15px
   background: $awesome-lines, $awesome-gradient
   @media (max-width: $screen-sm-min)
-  height: 450px
+    height: 450px
   @media (max-width: $screen-xs-min)
-  height: 370px
+    height: 370px
 
 
 .post-background-img
@@ -61,6 +61,16 @@
   background-repeat: no-repeat
   opacity: 0.42
 
+.profile-background-container
+  @extend .post-background-container
+  height: 250px
+  @media (max-width: $screen-sm-min)
+    height: 200px
+  @media (max-width: $screen-xs-min)
+    height: 150px
+
+.post-container
+  margin-bottom: 4em
 
 .pattern
   background: $dark-awesome-gradient
@@ -85,3 +95,15 @@
   width: 100%
   height: 100%
   opacity: 0.2
+
+.portrait-img
+  max-width: 125px
+  height: auto
+  float: left
+  margin-right: 1em
+  margin-bottom: 1em
+  @media (max-width: $screen-xs-min)
+    margin: 0
+    margin-bottom: 1em
+    float: none
+    max-width: 100%
