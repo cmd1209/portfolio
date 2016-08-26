@@ -9,7 +9,7 @@
               <div class="row">
                 <div class="col-md-6 clearfix">
                   {% for profile in site.profile reversed limit:2 offset:2 %}
-                  <article class="post-container">
+                  <div class="post-container">
                       <div class="profile-background-container">
                         <header class="post-header">
                           <a id="{{profile.title}}"></a>
@@ -22,17 +22,29 @@
                       <h4 class="post-description">{{ profile.description }}</h4>
                       {% endif %}
                       {{ profile.content }}
-                      <ul>
                         {% for skill in profile.skill %}
-                          <li>{{ skill.title }} <span>{{skill.value}}</span></li>
+                        <div class="skill-lockup">
+                          <h4 class="skill">{{ skill.title }}</h4>
+                          <div class="skill-icons skill-{{skill.value}}">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                        </div>
                         {% endfor %}
-                      </ul>
-                    </article>
+                    </div>
                   {% endfor %}
                 </div>
                 <div class="col-md-6 clearfix">
                   {% for profile in site.profile reversed limit:2 %}
-                  <article class="post-container">
+                  <div class="post-container">
 
                       <div class="profile-background-container">
                         <header class="post-header">
@@ -46,7 +58,7 @@
                       <h4 class="post-description">{{ profile.description }}</h4>
                       {% endif %}
                       {{ profile.content }}
-                  </article>
+                  </div>
                   {% endfor %}
                 </div>
               </div>
