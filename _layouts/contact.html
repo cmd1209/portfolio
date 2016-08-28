@@ -22,6 +22,8 @@
                       <h4 class="post-description">{{ profile.description }}</h4>
                       {% endif %}
                       {{ profile.content }}
+                      <div class="skills">
+
                         {% for skill in profile.skill %}
                         <div class="skill-lockup">
                           <h4 class="skill">{{ skill.title }}</h4>
@@ -39,6 +41,7 @@
                           </div>
                         </div>
                         {% endfor %}
+                      </div>
                     </div>
                   {% endfor %}
                 </div>
