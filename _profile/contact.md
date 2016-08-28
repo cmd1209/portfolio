@@ -3,12 +3,12 @@ title:  "Contact"
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-03.png
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-03.png
-facts: Chicharrones Contact
+description: In this age, I guess one could walk off into the wilderness, but I'm pretty sure he or she would sooner or later get the urge to post their experience.
 
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit.
+I got pretty much all the social media behemoths covered.
 
-[email me](mailto:{{site.email}})
-[facebook](http://www.{{site.facebook}})
 
+<a class="social-icon" href="mailto:{{site.email}}"><img src="{{ site.baseurl}}/assets/images/email.svg"></a>
+<a class="social-icon" href="http://www.{{site.facebook}}"><img src="{{ site.baseurl}}/assets/images/facebook.svg"></a>
 <a class="social-icon" href="http://www.{{site.instagram}}"><img src="{{ site.baseurl}}/assets/images/iconmonstr-instagram-14.svg"></a>
