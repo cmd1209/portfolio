@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:700,400)
 @import url(https://fonts.googleapis.com/css?family=Audiowide)
 
-$headline-font: 'Audiowide', cursive
+$headline-font: 'Gruppo', cursive
 
 $headlines: 'Gruppo', cursive
 
@@ -18,7 +18,6 @@ em
   padding: 2px 3px
 
 blockquote
-  font-family: 'Quattrocento', serif
-  font-size: 175%
-  color: $secondary-color
+  @extend h3
+  color: lighten($primary-color, 35%)
   border: none
