@@ -33,6 +33,13 @@ $( document ).ready(function() {
   //   });
   // });
 
+  var startbutton = $('#start-button');
+
+  startbutton.on( "click", function() {
+    $('.splash-text').addClass('offscreen');
+    $('.splash-container').delay(500).fadeOut(300);
+  });
+
   var projectwrapper = $(this).find('.project-wrapper');
 
   talent.mouseenter(function(){
