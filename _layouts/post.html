@@ -20,6 +20,20 @@ layout: post
                 {% if page.description %}
                 <h4 class="post-description">{{ page.description }}</h4>
                 {% endif %}
+                <div id="owl-demo" class="slideshow">
+                  {% if page.image.detail01 %}
+                  <img src="{{page.image.detail01}}" class="img-responsive" alt="">
+                  {% endif %}
+                  {% if page.image.detail02 %}
+                  <img src="{{page.image.detail02}}" class="img-responsive" alt="">
+                  {% endif %}
+                  {% if page.image.detail03 %}
+                  <img src="{{page.image.detail03}}" class="img-responsive" alt="">
+                  {% endif %}
+                  {% if page.image.detail0 %}
+                  <img src="{{page.image.detail04}}" class="img-responsive" alt="">
+                  {% endif %}
+                </div>
                 {{ content }}
                 {% if page.link %}
                 <a href="http://www.{{page.link}}" class="btn post-link">{{page.link}}</a>
@@ -29,19 +43,3 @@ layout: post
     </div>
   </body>
 </html>
-
-
-<!-- <div id="owl-demo" class="slideshow">
-  {% if page.image.feature %}
-  <img src="{{page.image.feature}}" class="img-responsive" alt="">
-  {% endif %}
-  {% if page.image.img2 %}
-  <img src="{{page.image.img2}}" class="img-responsive" alt="">
-  {% endif %}
-  {% if page.image.img3 %}
-  <img src="{{page.image.img3}}" class="img-responsive" alt="">
-  {% endif %}
-  {% if page.image.img4 %}
-  <img src="{{page.image.img4}}" class="img-responsive" alt="">
-  {% endif %}
-</div> -->

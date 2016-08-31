@@ -70,7 +70,6 @@ $( document ).ready(function() {
         goToFirstSpeed : 2000,
         singleItem : true,
         autoHeight : true,
-        transitionStyle:"fade"
   });
 
 

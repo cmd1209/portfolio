@@ -23,8 +23,15 @@ facts: Where i've been and what i've been doing.
   </figure>
   </div>
 </div>
-<ul>
-<li>Together Concept GmBH Werbeagentur, Essen 2004 - 2007</li>
-<li>Braun & Voigt Werbeagentur, Heidelberg 2004 - 2007</li>
-<li>Studio Andreas Heller, Hamburg 2007 - Current</li>
-</ul>
+<dl>
+  <dt>Together Concept GmBH Werbeagentur, Essen</dt>
+  <dd>1999 - 2004</dd>
+</dl>
+<dl>
+  <dt>Braun & Voigt Werbeagentur, Heidelberg</dt>
+  <dd>2004 - 2007</dd>
+</dl>
+<dl>
+  <dt>Studio Andreas Heller, Hamburg</dt>
+  <dd>2007 - Current</dd>
+</dl>
