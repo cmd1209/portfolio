@@ -1,6 +1,5 @@
 ---
 title:  "German Emigration Center"
-abbr:  "DAH"
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg

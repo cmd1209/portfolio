@@ -1,5 +1,7 @@
 ---
 title:  "European Hansemuseum"
+link: hansemuseum.eu
+description: The opening of a new major european museum needed a new major european museum website.
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/web/EHM-Web-Responsive-thumb.jpg
   detail01: https://dl.dropboxusercontent.com/u/947851/portfolio/web/EHM/EHM-Details-01.jpg
@@ -7,8 +9,4 @@ image:
   detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/web/EHM/EHM-Details-03.jpg
   detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/web/EHM/EHM-Details-04.jpg
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
-
-Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers post-ironic, ramps biodiesel tousled pop-up sustainable put a bird on it mixtape bespoke. Wolf kogi trust fund celiac banh mi.
-
-Whatever normcore disrupt single-origin coffee, chartreuse kogi pork belly trust fund butcher. Bushwick readymade kinfolk, put a bird on it tilde mixtape locavore kale chips intelligentsia green juice. Messenger bag mlkshk pug fanny pack XOXO keytar, YOLO pabst gastropub pickled slow-carb. Chambray pug polaroid kitsch. Freegan fingerstache williamsburg XOXO crucifix kinfolk. Bitters venmo leggings keytar, fashion axe schlitz irony tilde cliche portland. Ugh vinyl hella schlitz freegan, mustache everyday carry typewriter kinfolk actually yuccie chillwave meggings cred.
+Using what i'd learned from the German Emigration Center website but adding a complicated multilingual aspect.
