@@ -1,12 +1,11 @@
 ---
 title:  "New Orleans"
-abbr:  "NO"
+description: An extremely emotional special exhibiton at the German Emigration Center.
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/New-Orleans_4.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/New-Orleans_4.jpg
+  detail01: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/NO/New-Orleans_01.jpg
+  detail02: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/NO/New-Orleans_02.jpg
+  detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/NO/New-Orleans_03.jpg
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
-
-Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers post-ironic, ramps biodiesel tousled pop-up sustainable put a bird on it mixtape bespoke. Wolf kogi trust fund celiac banh mi.
-
-Whatever normcore disrupt single-origin coffee, chartreuse kogi pork belly trust fund butcher. Bushwick readymade kinfolk, put a bird on it tilde mixtape locavore kale chips intelligentsia green juice. Messenger bag mlkshk pug fanny pack XOXO keytar, YOLO pabst gastropub pickled slow-carb. Chambray pug polaroid kitsch. Freegan fingerstache williamsburg XOXO crucifix kinfolk. Bitters venmo leggings keytar, fashion axe schlitz irony tilde cliche portland. Ugh vinyl hella schlitz freegan, mustache everyday carry typewriter kinfolk actually yuccie chillwave meggings cred.
+Two researchers a designer and a filmmaker left Hamburg, Germany for New Orleans to gather information and material for an upcoming special exhibition about the internal migration of victims of Hurricane Katrina. 
