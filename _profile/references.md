@@ -6,32 +6,48 @@ image:
 facts: Where i've been and what i've been doing.
 ---
 <div class="skills">
-  <div class="skill-lockup">
-    <figure>
-      <img src="{{ site.baseurl}}/assets/images/together.png" alt="Together Concept" class="img-responsive">
-    </figure>
-  </div>
-  <div class="skill-lockup">
-  <figure>
-    <img src="{{ site.baseurl}}/assets/images/bv_logo.gif" alt="Braun & Voigt" class="img-responsive">
 
+    <figure  class="reference">
+      <img src="{{ site.baseurl}}/assets/images/together.png" alt="Together Concept" class="img-responsive">
+      <figcaption>Together Concept GmBH Werbeagentur, Essen<br>1999 - 2004</figcaption>
+    </figure>
+
+  <figure class="reference">
+    <img src="{{ site.baseurl}}/assets/images/logos/bv_logo.svg" alt="Braun & Voigt" class="img-responsive">
+    <figcaption>Braun & Voigt Werbeagentur, Heidelberg<br>2004 - 2007</figcaption>
   </figure>
-  </div>
-  <div class="skill-lockup-single">
-  <figure>
+
+  <figure class="reference">
     <img src="{{ site.baseurl}}/assets/images/sah.svg" alt="Braun & Voigt" class="img-responsive">
+    <figcaption>Studio Andreas Heller, Hamburg<br>2007 - Current</figcaption>
   </figure>
-  </div>
+
 </div>
-<dl>
-  <dt>Together Concept GmBH Werbeagentur, Essen</dt>
-  <dd>1999 - 2004</dd>
-</dl>
-<dl>
-  <dt>Braun & Voigt Werbeagentur, Heidelberg</dt>
-  <dd>2004 - 2007</dd>
-</dl>
-<dl>
-  <dt>Studio Andreas Heller, Hamburg</dt>
-  <dd>2007 - Current</dd>
-</dl>
+
+<h3>Clients</h3>
+<div class="row">
+  <div class="col-xs-6">
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/stihl.svg"   alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/dah.svg"   alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/hansemuseum.svg"  alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/waelderhaus.svg"  alt="" class="img-responsive" >
+  </figure>
+
+
+  </div>
+  <div class="col-xs-6">
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/liberty-hotel.svg"  alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/wasserkunst.svg"  alt="" class="img-responsive" >
+  </figure>
+
+  </div>
