@@ -28,6 +28,9 @@ facts: Where i've been and what i've been doing.
 <div class="row">
   <div class="col-xs-6">
   <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/zeiss.svg"   alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
     <img src="{{ site.baseurl}}/assets/images/logos/stihl.svg"   alt="" class="img-responsive" >
   </figure>
   <figure class="client">
@@ -43,6 +46,12 @@ facts: Where i've been and what i've been doing.
 
   </div>
   <div class="col-xs-6">
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/kosmos.svg"  alt="" class="img-responsive" >
+  </figure>
+  <figure class="client">
+    <img src="{{ site.baseurl}}/assets/images/logos/viking.svg"  alt="" class="img-responsive" >
+  </figure>
   <figure class="client">
     <img src="{{ site.baseurl}}/assets/images/logos/liberty-hotel.svg"  alt="" class="img-responsive" >
   </figure>
