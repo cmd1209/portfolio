@@ -10,4 +10,4 @@ image:
   detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/web/Wald/wald-detail-03.jpg
   detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/web/Wald/wald-detail-04.jpg
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
+We designed and constructed the Wälderhaus in 2013 to showcase the amazing aspect that Hamburg is indeed a very green city. The top four levels are constructed entirely of wood, and sustainability is a key focus of the design and emplimentation. The building as well as the website is divided up into four sections: The Science Center, Workshop, Hotel and Restaurant.
