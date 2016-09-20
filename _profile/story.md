@@ -9,4 +9,6 @@ description: Creating, Making, Coding, Shooting, Framing, Editing, Developing, B
 
 <blockquote>What comes first – permission to work or permission to stay?</blockquote>
 
-Landing a job in a foreign country was the easiest part of starting a career in Germany.
+Landing a job was the easiest part of starting a career in Germany. It proved to be more difficult to be granted permission to work in Germany. I wasn't granted permission to stay in Germany without first being granted permission to work, and I wasn't granted permission to work in Germany without first being granted permission to stay. It was litterly the chicken before the egg paradox.
+
+We   
