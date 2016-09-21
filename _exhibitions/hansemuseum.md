@@ -9,4 +9,4 @@ image:
   detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/ehm/ehm-03.jpg
   detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/ehm/ehm-04.jpg
 ---
-A very large museum devoted to a large breadth of European history.
+The European Hansemuseum, the largest museum in the world dedicated to the history of the Hanse, is now open. A combination of staged historical scenes, cabinets with valuable original objects, the latest museum technology and interactive features enable the museum to convey an informative and fascinating impression of the world of the Hanse, whose legacy can still be felt today.

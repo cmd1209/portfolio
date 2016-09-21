@@ -1,7 +1,7 @@
 <div class="flex-box talent talent-3">
   <h4 class="talent-headline">{{site.talent3}}</h4>
   <div class="project-wrapper">
-    {% for ad_work in site.ad_work limit:6 %}
+    {% for ad_work in site.ad_work limit:4 %}
     {% if exhibition.image.thumbnail %}
       <a class="project" href="{{ ad_work.url | prepend: site.baseurl }}" style="background-image: url({{ad_work.image.thumbnail}});">
     {% else %}
