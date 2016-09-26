@@ -3,7 +3,12 @@ title:  "German Emigration Center"
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg
+  detail01: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-01.jpg
+  detail02: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-02.jpg
+  detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-03.jpg
+  detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-04.jpg
 ---
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
+For the last 10 years, what seems like forever, i've been pretty much the private graphic design of this shit museum.  
 
-Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers post-ironic, ramps biodiesel tousled pop-up sustainable put a bird on it mixtape bespoke. Wolf kogi trust fund celiac banh mi.
+
+<blockquote>It seems like forever.</blockquote>
