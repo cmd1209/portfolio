@@ -1,5 +1,6 @@
 ---
 title:  "German Emigration Center"
+description: From corporate design to full on advertising campaigns.
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/dah-grafic-feature.jpg
@@ -8,7 +9,7 @@ image:
   detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-03.jpg
   detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-04.jpg
 ---
-For the last 10 years, what seems like forever, i've been pretty much the private graphic design of this shit museum.  
+For the last ten years just about every aspect of the German Emigration Center's needs were taken care of; from redesigning the restaurant's menu to creating a quarterly event guide. Events, concerts, special exhibition openings, promotional dvds, image films. 
 
 
 <blockquote>It seems like forever.</blockquote>
