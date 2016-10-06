@@ -1,10 +1,16 @@
 ---
 title:  "JPK Instruments"
-abbr:  "JPK"
+description: Complete rebranding of the corporate identity as well as a launch of a new advertising campaign.  
 image:
   thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/jpk-thumb.jpg
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/jpk-thumb.jpg
----
-Shoreditch 8-bit taxidermy, quinoa cliche brunch wolf post-ironic slow-carb retro mixtape sustainable green juice butcher offal. Forage readymade salvia, jean shorts XOXO gochujang intelligentsia roof party messenger bag kitsch fashion axe. Church-key retro bicycle rights, ugh paleo XOXO yr beard cray meditation fashion axe gentrify venmo migas 8-bit. Master cleanse asymmetrical stumptown ramps, knausgaard swag banh mi.
+  detail01: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/JPK/JPK-01.jpg
+  detail02: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/JPK/JPK-02.jpg
+  detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/JPK/JPK-03.jpg
 
-Chicharrones lumbersexual four loko drinking vinegar williamsburg. Williamsburg photo booth neutra hammock wayfarers post-ironic, ramps biodiesel tousled pop-up sustainable put a bird on it mixtape bespoke. Wolf kogi trust fund celiac banh mi.
+---
+In 2006 we were given the unique opportunity to completely rebrand an emerging company located in Berlin. Carl Zeiss Microscopy highly recommended us, and after the initial meetings we got straight to work on the corporate design.
+
+<blockquote>Corporate Design is like buying a bespoken suit. You start off asking the client what kind of person he is.</blockquote>
+
+It was at this time I learned a valuable lesson about CI / CD. My boss at the time equated it to fine tailoring and explained that it is like creating a bespoken suit. You start off by asking the client what kind of interests they have.

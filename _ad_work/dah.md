@@ -9,7 +9,6 @@ image:
   detail03: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-03.jpg
   detail04: https://dl.dropboxusercontent.com/u/947851/portfolio/ad_work/DAH/DAH-Details-04.jpg
 ---
-For the last ten years just about every aspect of the German Emigration Center's needs were taken care of; from redesigning the restaurant's menu to creating a quarterly event guide. Events, concerts, special exhibition openings, promotional dvds, image films. 
+For the last ten years just about every aspect of the German Emigration Center's needs were taken care of; from redesigning the restaurant's menu to creating a quarterly event guide.
 
-
-<blockquote>It seems like forever.</blockquote>
+<blockquote>Events, Concerts, Special Exhibition Openings, Promotional Dvds, Image Films and much more</blockquote>
