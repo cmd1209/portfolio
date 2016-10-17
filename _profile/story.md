@@ -11,4 +11,8 @@ description: Creating, Making, Coding, Shooting, Framing, Editing, Developing, B
 
 Landing a job was the easiest part of starting a career in Germany. It proved to be more difficult to be granted permission to work in Germany. I wasn't granted permission to stay in Germany without first being granted permission to work, and I wasn't granted permission to work in Germany without first being granted permission to stay. It was literally the chicken before the egg paradox.
 
-For the following 6 years this problem was simply worked around by employers insisting that I was uniquely qualified as an American because they had future intentions of opening an office in the United States.
+For the following six years this problem was simply worked around by employers insisting that I was uniquely qualified as an American because they had future intentions of opening an office in the United States. Six years was all it took to finally end this cycle. I received my permanent visa for Germany in 2006 and soon after that married my wife, which also solved the whole permission problem.
+
+Early 2007 was an interesting time. For some reason Heidelberg seemed too small for someone in their early thirties, plus we were expecting our first child. We were given a chance to bust out of the small town and leave it behind for Germany’s second largest city; Hamburg.
+
+So this is basically where i’ve been for the past 9 1/2 years. I’ve been a part of some amazing projects, worked with some amazing people, but now I’m ready for something else. 
