@@ -2,8 +2,8 @@
 title:  "Carl Zeiss Microscopy"
 description: Life and Material Microscopy on Any Scale
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/ad_work/Zeiss/zeiss01.jpg
-  feature: http://www.studio-andreas-heller.de//funstuff/port/ad_work/Zeiss/zeiss01.jpg
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/ad_work/zeiss-placeholder.jpg
+  feature: http://www.studio-andreas-heller.de//funstuff/port/ad_work/zeiss-placeholder.jpg
   detail01: http://www.studio-andreas-heller.de//funstuff/port/ad_work/Zeiss/zeiss01.jpg
   detail02: http://www.studio-andreas-heller.de//funstuff/port/ad_work/Zeiss/zeiss02.jpg
   detail03: http://www.studio-andreas-heller.de//funstuff/port/ad_work/Zeiss/zeiss03.jpg
