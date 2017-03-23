@@ -3,7 +3,7 @@ title:  "European Hansemuseum"
 link: hansemuseum.eu
 description: The opening of a new major european museum needed a new major european museum website.
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/EHM-Web-Responsive-thumb.jpg
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/web/EHM-Web-Responsive-thumb.jpg
   detail01: http://www.studio-andreas-heller.de//funstuff/port/web/EHM/EHM-Details-01.jpg
   detail02: http://www.studio-andreas-heller.de//funstuff/port/web/EHM/EHM-Details-02.jpg
   detail03: http://www.studio-andreas-heller.de//funstuff/port/web/EHM/EHM-Details-03.jpg

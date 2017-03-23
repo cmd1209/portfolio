@@ -3,7 +3,7 @@ title:  "Wälderhaus"
 link: waelderhaus.de
 description: A unique building – a unique website
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/HDW-Web-Responsive-thumb.jpg
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/web/HDW-Web-Responsive-thumb.jpg
   feature: http://www.studio-andreas-heller.de//funstuff/port/web/HDW-Web-Responsive.jpg
   detail01: http://www.studio-andreas-heller.de//funstuff/port/web/Wald/wald-detail-01.jpg
   detail02: http://www.studio-andreas-heller.de//funstuff/port/web/Wald/wald-detail-02.jpg
