@@ -54,7 +54,7 @@ github_username:  cmd1209
 # Build settings
 markdown: kramdown
 
-cdn_path: https://dl.dropboxusercontent.com/u/947851/portfolio/
+cdn_path: http://www.studio-andreas-heller.de//funstuff/port/
 
 gems:
   - octopress-autoprefixer

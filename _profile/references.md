@@ -1,8 +1,8 @@
 ---
 title:  "References"
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-04.png
-  feature: https://dl.dropboxusercontent.com/u/947851/portfolio/profile/profile-thumb-04.png
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
+  feature: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
 facts: Where i've been and what i've been doing.
 ---
 <div class="skills">
