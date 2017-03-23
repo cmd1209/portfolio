@@ -3,7 +3,7 @@ title:  "German Emigration Center"
 link: dah-bremerhaven.de
 description: New Addition – New Website.
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/web/DAH-Web-Responsive-thumb.jpg
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/DAH-Web-Responsive-thumb.jpg
   feature: http://www.studio-andreas-heller.de//funstuff/port/web/DAH-Web-Responsive.jpg
   detail01: http://www.studio-andreas-heller.de//funstuff/port/web/DAH/DAH-Details-01.jpg
   detail02: http://www.studio-andreas-heller.de//funstuff/port/web/DAH/DAH-Details-02.jpg
