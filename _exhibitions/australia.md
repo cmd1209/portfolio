@@ -2,7 +2,7 @@
 title:  "Germans in Australia"
 description:  A special exhibition about the thousands of Germans that found their way to Australia
 image:
-  thumbnail: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg
+  thumbnail: https://www.dropbox.com/s/zvv1z12593ujarz/australien-lo.jpg?dl=0
   feature: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/australien-lo.jpg
   detail01: https://www.dropbox.com/s/exa9mb9lpfuzdoj/Aus-01.jpg?dl=0
   detail02: https://dl.dropboxusercontent.com/u/947851/portfolio/exhibition/AUS/Aus-02.jpg
