@@ -6,6 +6,8 @@ image:
 description: In this age, I guess one could walk off into the wilderness, but I'm pretty sure he or she would sooner or later get the urge to post their experience.
 
 ---
+Tel: +49 17752883
+
 I got pretty much all the social media behemoths covered.
 
 <a class="social-icon" href="mailto:{{site.email}}"><img src="{{ site.baseurl}}/assets/images/email.svg"></a>
