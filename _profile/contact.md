@@ -6,7 +6,7 @@ image:
 description: In this age, I guess one could walk off into the wilderness, but I'm pretty sure he or she would sooner or later get the urge to post their experience.
 
 ---
-Tel: +49 17752883
+Tel: +49 177 528 8385
 
 I got pretty much all the social media behemoths covered.
 
