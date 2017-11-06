@@ -1,6 +1,6 @@
 ---
 layout: "mailing"
-title:  "UX Designer / Visual Designer"
+title:  "Communications Designer"
 description: "Jumping ship is never easy, but with Hamburg as a safe haven, who would want to leave?"
 ---
 I was thrilled to see that InnoGames had posted an opening for a communications designer at their Hamburg office. Hacking – that's just who I am and what I've been doing my whole life. It wasn't until my first Mac that I finally realized that a computer could, in fact, have a case. (Even that didn't prevent me from opening it up to see how it all works.)
