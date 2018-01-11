@@ -3,4 +3,4 @@ layout: "mailing"
 title:  "Creative Director"
 description: "Jumping ship is never easy, but with Hamburg as a safe haven, who would want to leave?"
 ---
-I was thrilled to see that Designerdock had posted an opening for a Senior Art Director at their Hamburg office. Hacking – that's just who I am and what I've been doing my whole life. It wasn't until my first Mac that I finally realized that a computer could, in fact, have a case. (Even that didn't prevent me from opening it up to see how it all works.)
+I was thrilled to see that Designerdock had posted an opening for a Senior Art Director at their Hamburg office. It's not always easy being an American designer in Europe. That’s why I've been looking for unique opportunities that will combine the best of both continents. 
