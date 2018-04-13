@@ -8,7 +8,7 @@ description: In this age, I guess one could walk off into the wilderness, but I'
 ---
 Tel: +49 177 528 8385
 
-I got pretty much all the social media behemoths covered.
+I've got pretty much all the social media behemoths covered.
 
 <a class="social-icon" href="mailto:{{site.email}}"><img src="{{ site.baseurl}}/assets/images/email.svg"></a>
 <a class="social-icon" href="http://www.{{site.linkedin}}"><img src="{{ site.baseurl}}/assets/images/linkedin.svg"></a>
