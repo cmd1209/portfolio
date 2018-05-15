@@ -4,7 +4,8 @@
   <body>
     <div class="home-wrapper">
       {% include header.html %}
-          <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
+
+      <a href="{{ index.url | prepend: site.baseurl}}/" class="glyphicon glyphicon-th-large back-icon"></a>
           <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-2 pattern stories">
               <div class="row">
                 <div class="col-md-6 clearfix">
@@ -63,6 +64,33 @@
                       {{ profile.content }}
                   </div>
                   {% endfor %}
+                  
+                </div>
+                <div class="col-md-12 clearfix">
+                  <h2>Drop me a line.</h2>
+                  <form class="form" id="formaction" method="POST">
+                    <div class="inputwrap">
+                      <input type="text" name="name" >
+                      <label for="text">Your Name Please</label>
+                    </div>
+                    <div class="inputwrap">
+                      <input type="email" name="email">
+                      <label for="email">Your Email Address</label>
+                    </div>
+                    <div class="inputwrap">
+                      <textarea type="message" name="message"></textarea>
+                      <label for="message">Leave me a short message.</label>
+                    </div> <br>
+                    <div class="buttons">
+                      <input type="submit" class="btn" value="Send">
+                      <input type="text" name="_gotcha" style="display:none" />
+
+                   </div>
+                  </form>
+                  <script>
+                    var contactform =  document.getElementById('formaction');
+                    contactform.setAttribute('action', '//formspree.io/' + 'chad.m.danford' + '@' + 'gmail' + '.' + 'com');
+                   </script>
                 </div>
               </div>
           </div>

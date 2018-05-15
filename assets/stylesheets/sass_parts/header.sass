@@ -51,7 +51,7 @@ $header-width: 180px
   left: 0
   right: 0
   background: $transparent-gradient
-  z-index: 2
+  z-index: 999
 
 @keyframes moveleft
   0%
@@ -66,6 +66,7 @@ $header-width: 180px
   position: absolute
   top: 50%
   left: 50%
+  width: 80%
   transform: translateX(-50%)translateY(-50%)
   text-align: center
   color: $offwhite
@@ -73,3 +74,72 @@ $header-width: 180px
 
 .offscreen
   animation: moveleft ease-out 0.7s none
+
+.buttons
+  padding-left: 2em
+
+input
+  background: none
+  border: 2px solid blue
+  color: white
+  padding: 5px 10px 
+  font-size: 12px
+  display: inline
+  margin: 1em 0
+  &:focus,
+  &active
+    outline: none
+  &[type="text"],
+  &[type="email"],
+  &[type="message"]
+    width: 85%
+    border: none
+    border-bottom: solid 2px grey
+    border-left: solid 2px grey
+    background: none
+textarea
+  background: none
+  border: none
+  border-bottom: solid 2px grey
+  border-left: solid 2px grey
+  width: 85%
+  min-height: 5em
+  &:focus
+    border: none
+    outline: none !important
+    background-color: rgba($primary-color, 0.2)
+
+input
+  &[type="submit"],
+  &[type="cancel"]
+    max-width: 100px
+input
+  &[type="cancel"]
+    opacity: 0.7
+    &:hover
+      opacity: 1
+.inputwrap
+  position: relative
+  display: inline-block
+  margin: 1em
+  width: 85%
+  
+
+  label
+    position: absolute
+    top: 50%
+    right: 0
+    bottom: 0
+    left: 20px
+    transform: translateY(-50%)
+    color: grey
+    pointer-events: none
+    transition: all 0.5s ease
+   
+  input:focus + label,
+  input.has-value + label, 
+  textarea:focus + label
+    top: 8px
+    left: 0
+    font-size: 12px
+    color: grey

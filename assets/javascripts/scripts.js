@@ -38,7 +38,18 @@ $( document ).ready(function() {
   startbutton.on( "click", function() {
     $('.splash-text').addClass('offscreen');
     $('.splash-container').delay(500).fadeOut(300);
-  });
+   });
+
+    $('.form .inputwrap input').focusout(function(){
+      var text_val = $(this).val();
+      if(text_val === ""){
+        $(this).removeClass('has-value');
+      }
+      else{
+        $(this).addClass('has-value');
+      }
+      
+    });
 
   var projectwrapper = $(this).find('.project-wrapper');
 

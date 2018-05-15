@@ -10,7 +10,6 @@ Tel: +49 177 528 8385
 
 I've got pretty much all the social media behemoths covered.
 
-<a class="social-icon" href="mailto:{{site.email}}"><img src="{{ site.baseurl}}/assets/images/email.svg"></a>
 <a class="social-icon" href="http://www.{{site.linkedin}}"><img src="{{ site.baseurl}}/assets/images/linkedin.svg"></a>
 <a class="social-icon" href="http://www.{{site.facebook}}"><img src="{{ site.baseurl}}/assets/images/facebook.svg"></a>
 <a class="social-icon" href="http://www.{{site.instagram}}"><img src="{{ site.baseurl}}/assets/images/iconmonstr-instagram-14.svg"></a>
