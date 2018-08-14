@@ -1,8 +1,8 @@
 ---
 title:  "Skills"
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-02.png
-  feature: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-02.png
+  thumbnail: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-02.png
+  feature: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-02.png
 description: I once bragged to my boss about knowing all of Photoshop's keyboard commands. That didn't go over too well.
 skill:
   - title: "Leadership"

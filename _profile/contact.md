@@ -1,8 +1,8 @@
 ---
 title:  "Contact"
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-03.png
-  feature: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-03.png
+  thumbnail: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-03.png
+  feature: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-03.png
 description: In this age, I guess one could walk off into the wilderness, but I'm pretty sure he or she would sooner or later get the urge to post their experience.
 
 ---

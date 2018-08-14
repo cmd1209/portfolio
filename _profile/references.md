@@ -1,8 +1,8 @@
 ---
 title:  "References"
 image:
-  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
-  feature: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
+  thumbnail: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
+  feature: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-04.png
 facts: Where i've been and what i've been doing.
 ---
 <div class="skills">
