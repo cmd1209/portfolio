@@ -1,8 +1,8 @@
 ---
 title:  "Story"
 image:
-  thumbnail: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-01.png
-  feature: https://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-01.png
+  thumbnail: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-01.png
+  feature: http://www.studio-andreas-heller.de//funstuff/port/profile/profile-thumb-01.png
 description: Creating, Making, Coding, Shooting, Framing, Editing, Developing, Brainstorming, Doing like it's 1999.  
 ---
 <img src="https://www.studio-andreas-heller.de//funstuff/port/self-portrait.jpg"   alt="" class="img-responsive" >
